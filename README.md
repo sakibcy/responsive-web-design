@@ -34,6 +34,7 @@ This property arranges flex-items along the MAIN AXIS inside the flex-container.
 <img src='./readMeImages/justifyContent.png' />
 <img src='./readMeImages/justifyContentSpace.png' />
 
+
 ### align-content property
 This property arranges flex-items along the CROSS AXIS inside the flex-container. This is similar to justify-content.
 Please note that without the ```flex-wrap``` property, this property doesn't work. Here's a demo:
@@ -41,11 +42,25 @@ Please note that without the ```flex-wrap``` property, this property doesn't wor
 <img src='./readMeImages/alignContentSpace.png' />
 
 ### place-content
-This is the shorthand for the justify-content and align-content properties:
+This is the shorthand for the align-content and justify-content properties:
 <img src='./readMeImages/palceContent.png' />
 
 
 ### align-items property
+This property distributes Flex-items along the ```Cross Axis```.
+<img src='./readMeImages/alignItem.png' />
+
+
+### align-self property
+This property works on the child classes. It positions the selected item along the Cross Axis.
+<img src='./readMeImages/alignSelf.png' />
+In total we have 6 values:
+* flex-start
+* flex-end
+* center
+* baseline
+* stretch
+* auto
 
 ## Css Articles
 * [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
