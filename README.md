@@ -3,8 +3,10 @@
 * [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
 * [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
 
+
 ## Css Units
 <img src='./readMeImages/htmlRem.png' />
+
 
 ## FlexBox
 When you're building a house, you need a blueprint. In the same way, we need a blueprint when we're making websites. And Flexbox is the blueprint.
@@ -13,11 +15,12 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 * [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design#flexbox-architecture)
 * [Flexbox Chart](https://github.com/sakibcy/responsive-web-design#flexbox-chart)
 
+
 ### Flexbox Architecture
 <img src='./readMeImages/flexBoxArchitecture.png' />
 
 ### Flexbox Chart
-<img src='./readMeImages/flexBoxChart.png' width="1466" height="1134" />
+<img src='./readMeImages/flexBoxChart.png' />
 <img src='./readMeImages/flexBoxProperty.png' />
 
 ### flex-direction property
@@ -29,6 +32,13 @@ This property allows us to set the direction and orientation in which our flex-i
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
 <img src='./readMeImages/justifyContent.png' />
 <img src='./readMeImages/justifyContentSpace.png' />
+
+### align-content property
+This property arranges flex-items along the CROSS AXIS inside the flex-container. This is similar to justify-content.
+Please note that without the ```flex-wrap``` property, this property doesn't work. Here's a demo:
+<img src='./readMeImages/alignContent.png' />
+<img src='./readMeImages/alignContentSpace.png' />
+
 
 ## Css Articles
 * [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
