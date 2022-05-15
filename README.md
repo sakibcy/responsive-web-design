@@ -8,12 +8,13 @@
 
 ## FlexBox
 * [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design#flexbox-architecture)
+* [Flexbox Chart](https://github.com/sakibcy/responsive-web-design#flexbox-chart)
 
 ### Flexbox Architecture
-<img src='./flexBoxArchitecture.png' />
+<img src='./readMeImages/flexBoxArchitecture.png' />
 
 ### Flexbox Chart
-<img src='./felxBoxChart.png' />
+<img src='./readMeImages/felxBoxChart.png' />
 
 ## Css Articles
 * [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
