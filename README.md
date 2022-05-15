@@ -17,7 +17,7 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 <img src='./readMeImages/flexBoxArchitecture.png' />
 
 ### Flexbox Chart
-<img src='./readMeImages/flexBoxChart.png' width="1466px" height="1134px" />
+<img src='./readMeImages/flexBoxChart.png' width="1466" height="1134" />
 <img src='./readMeImages/flexBoxProperty.png' />
 
 ### flex-direction property
