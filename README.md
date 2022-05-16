@@ -43,7 +43,7 @@ Please note that without the ```flex-wrap``` property, this property doesn't wor
 
 ### place-content
 This is the shorthand for the align-content and justify-content properties:
-<img src='./readMeImages/palceContent.png' />
+<img src='./readMeImages/placeContent.png' />
 
 
 ### align-items property
