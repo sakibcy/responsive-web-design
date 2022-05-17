@@ -45,6 +45,12 @@ body {
   flex-grow: 1;
 }
 
+.box {
+  background-color: black;
+  width: 50vw;
+  height: 20vh;
+}
+
 [class^="box-"] {
   height: 100px;
   width: 100px;
