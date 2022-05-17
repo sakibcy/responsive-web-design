@@ -16,57 +16,57 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 
 ## Flexbox Architecture
 
-<img src='./readMeImages/flexBoxArchitecture.png' />
+<img src='./ReadMe-Images/flexBoxArchitecture.png' />
 
 ## Flexbox Chart
 
-<img src='./readMeImages/flexBoxChart.png' />
-<img src='./readMeImages/flexBoxProperty.png' />
+<img src='./ReadMe-Images/flexBoxChart.png' />
+<img src='./ReadMe-Images/flexBoxProperty.png' />
 
 ## flex-direction property
 
 This property allows us to set the direction and orientation in which our flex-items should be distributed inside the flex-container.
-<img src='./readMeImages/flexDirectionRow.png' />
-<img src='./readMeImages/flexDirectionColumn.png' />
+<img src='./ReadMe-Images/flexDirectionRow.png' />
+<img src='./ReadMe-Images/flexDirectionColumn.png' />
 
 ## flex-wrap
 
 This property helps you set the number of flex-items you want in a line or row.
-<img src="./readMeImages/flex-warp.png" />
+<img src="./ReadMe-Images/flex-warp.png" />
 
 ## flex-flow
 
 This is the shorthand for the flex-direction and flex-wrap properties:
 
-<img src="./readMeImages/flex-flow.png" />
+<img src="./ReadMe-Images/flex-flow.png" />
 
 ## justify-content property
 
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
-<img src='./readMeImages/justifyContent.png' />
-<img src='./readMeImages/justifyContentSpace.png' />
+<img src='./ReadMe-Images/justifyContent.png' />
+<img src='./ReadMe-Images/justifyContentSpace.png' />
 
 ## align-content property
 
 This property arranges flex-items along the CROSS AXIS inside the flex-container. This is similar to justify-content.
 Please note that without the `flex-wrap` property, this property doesn't work. Here's a demo:
-<img src='./readMeImages/alignContent.png' />
-<img src='./readMeImages/alignContentSpace.png' />
+<img src='./ReadMe-Images/alignContent.png' />
+<img src='./ReadMe-Images/alignContentSpace.png' />
 
 ## place-content
 
 This is the shorthand for the align-content and justify-content properties:
-<img src='./readMeImages/placeContent.png' />
+<img src='./ReadMe-Images/placeContent.png' />
 
 ## align-items property
 
 This property distributes Flex-items along the `Cross Axis`.
-<img src='./readMeImages/alignItem.png' />
+<img src='./ReadMe-Images/alignItem.png' />
 
 ## align-self property
 
 This property works on the child classes. It positions the selected item along the Cross Axis.
-<img src='./readMeImages/alignSelf.png' />
+<img src='./ReadMe-Images/alignSelf.png' />
 In total we have 6 values:
 
 - flex-start
@@ -100,7 +100,7 @@ These items would be displayed on the page in the following order:
 
 Items have a number showing their source order which has been rearranged.
 
-<img src="./readMeImages/order-property.png" />
+<img src="./ReadMe-Images/order-property.png" />
 
 You can play around with the values in this live example below and see how that changes the order. Also, try changing flex-direction to row-reverse and see what happens — the start line is switched so the ordering begins from the opposite side.
 
@@ -108,7 +108,7 @@ You can play around with the values in this live example below and see how that 
 
 The gap CSS property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.
 
-<img src="./readMeImages/gap.png" width="532px" height="349px" />
+<img src="./ReadMe-Images/gap.png" width="532px" height="349px" />
 
 ## flex - grow | shrink | wrap | basis properties
 
@@ -122,7 +122,7 @@ This property grows the size of a flex-item based on the width of the flex-conta
 
 This property helps a flex item shrink based on the width of the flex-container. It's the opposite of flex-grow.
 
-<img src="./readMeImages/flex-grow.png" />
+<img src="./ReadMe-Images/flex-grow.png" />
 
 Please note that flex-grow and flex-shrink work on child classes. So, we will target all our boxes like this:
 
@@ -146,27 +146,27 @@ This is similar to adding width to a flex-item, but only more flexible. flex-bas
 
 This is the shorthand for the flex-grow, flex-shrink and flex-basis properties combined.
 
-<img src="./readMeImages/flex-shorthand.png" />
+<img src="./ReadMe-Images/flex-shorthand.png" />
 
 ## Css Units
 
-## REM, EM, VW, VH are relative units
+### REM, EM, VW, VH are relative units
 
-### Font using the REM unit
+#### Font using the REM unit
 
-<img src="./readMeImages/rem-unit.gif" />
+<img src="./ReadMe-Images/rem-unit.gif" />
 
-## pixels are absolute units.
+#### pixels are absolute units.
 
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
-<img src="./readMeImages/pixel-unit.gif">
+<img src="./ReadMe-Images/pixel-unit.gif">
 
 ## REM Unit
 
 The REM unit depends on the `root element [the HTML element]`. Here's an image to show you how it works:👇
 
-<img src='./readMeImages/htmlRem.png' />
+<img src='./ReadMe-Images/htmlRem.png' />
 
 ## How to change the root font-size
 
@@ -222,7 +222,7 @@ Write your styles in rem units instead of the pixels and change the root element
 
 And here's the result: 👇
 
-<img src="./readMeImages/rem-web.gif">
+<img src="./ReadMe-Images/rem-web.gif">
 
 Here are the calculations:
 
@@ -280,11 +280,11 @@ padding => 3em * 3em * 16px = 144px
 
 Instead of being 48px of padding, we are getting 144px padding. As you can see, it is getting multiplied by the previous number.
 
-<img src="./readMeImages/em.png" />
+<img src="./ReadMe-Images/em.png" />
 
 Here's the computed part from the developer console: 👇
 
-<img src="./readMeImages/em-padding.png" />
+<img src="./ReadMe-Images/em-padding.png" />
 
 ## VW unit - viewport width
 
@@ -305,11 +305,11 @@ It works like the percentage unit. Specifying `50vw` is equivalent to occupying 
 
 If you look carefully, you can see that 50vw means 50%, which will cover half of the entire screen width.
 
-<img src="./readMeImages/50vw.png" />
+<img src="./ReadMe-Images/50vw.png" />
 
 resizing box which is 50vw in size. It is taking 50% of entire screen even if we resize the window.
 
-<img src="./readMeImages/resizevw.gif">
+<img src="./ReadMe-Images/resizevw.gif">
 
 ## VH unit - viewport height
 
@@ -330,11 +330,11 @@ It works like the percentage unit as well. Specifying `50vh` is equivalent to `o
 
 And here's the result: 👇
 
-<img src="./readMeImages/50vh.png" />
+<img src="./ReadMe-Images/50vh.png" />
 
 As you can see, it will always cover that much space even if we resize the window.
 
-<img src="./readMeImages/resize-vh.gif">
+<img src="./ReadMe-Images/resize-vh.gif">
 
 ## Css Articles
 
