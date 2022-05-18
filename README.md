@@ -1,9 +1,30 @@
 # Responsive Web Design
 
-- [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
-- [Css Units](https://github.com/sakibcy/responsive-web-design#css-units)
-- [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
-- [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from)
+- [Flexbox](https://github.com/sakibcy/responsive-web-design/#flexbox)
+- [Css Units](https://github.com/sakibcy/responsive-web-design/#css-units)
+- [Css Articles](https://github.com/sakibcy/responsive-web-design/#css-articles)
+- [Resources From](https://github.com/sakibcy/responsive-web-design/#resources-from)
+
+CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both.
+
+<img src="./ReadMe-Images/grid-vs-flexbox.png" />
+
+## Which to use? Flexbox or Grid?
+
+Ask yourself those questions:
+
+- How the component child items are displayed? Inline or as columns and rows?
+- How the component is expected to work on various screen sizes?
+
+Most of the time, if the component you are viewing has `all of its child items displayed inline`, then most probably `flexbox is the best solution here`. Consider the following example:
+
+<img src="./ReadMe-Images/decide-1.png" />
+
+However, if you see columns and rows, then CSS grid is the solution for your case.
+
+<img src="./ReadMe-Images/decide-2.png">
+
+To learn more read this article 👉 [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
 
 ## FlexBox
 
@@ -11,8 +32,8 @@ When you're building a house, you need a blueprint. In the same way, we need a b
 
 The Flexbox model allows us to layout the content of our website. Not only that, it helps us create the structures needed for creating responsive websites for multiple devices.
 
-- [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design#flexbox-architecture)
-- [Flexbox Chart](https://github.com/sakibcy/responsive-web-design#flexbox-chart)
+- [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design/#flexbox-architecture)
+- [Flexbox Chart](https://github.com/sakibcy/responsive-web-design/#flexbox-chart)
 
 ## Flexbox Architecture
 
@@ -22,6 +43,14 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 
 <img src='./ReadMe-Images/flexBoxChart.png' />
 <img src='./ReadMe-Images/flexBoxProperty.png' />
+
+## Use flex
+
+For start using flex first declare:
+
+```css
+display: flex;
+```
 
 ## flex-direction property
 
@@ -45,6 +74,12 @@ This is the shorthand for the flex-direction and flex-wrap properties:
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
 <img src='./ReadMe-Images/justifyContent.png' />
 <img src='./ReadMe-Images/justifyContentSpace.png' />
+
+## text-align
+
+Arrange text to left, center, right, start, end
+
+<img src="./ReadMe-Images/text-align.png" />
 
 ## align-content property
 
@@ -340,7 +375,9 @@ As you can see, it will always cover that much space even if we resize the windo
 
 - [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
 - [Flexbox Tutorial with Flexbox Properties Cheat Sheet 🎖️](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
+- [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
 
 ## Resources from
 
 - [Joy Shahed](https://www.freecodecamp.org/news/author/joy/)
+- [Ahmad Shadeed](https://ishadeed.com/article/grid-layout-flexbox-components/)
