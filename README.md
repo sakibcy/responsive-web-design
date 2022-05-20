@@ -393,6 +393,8 @@ The Grid items [Contents] are distributed along the main axis and cross axis.
 
 <img src="./ReadMe-Images/grid-architecture.png" />
 
+<img src="./ReadMe-Images/grid-template-cloumns-rows.png" />
+
 ## Grid Chart
 
 Grid properties are divided into:
@@ -426,6 +428,8 @@ You use this property to define `the number and width of columns`.
 <img src="./ReadMe-Images/grid-template-columns.png" />
 <img src="./ReadMe-Images/grid-template-columns-repeat.png" />
 
+<img src="./ReadMe-Images/grid-template-columns-view.png" />
+
 ### Note:
 
 - The pixel values will be an exact measurement. The "auto" keyword will cover the available space.
@@ -444,7 +448,10 @@ You use this property to define `the number and width of columns`.
 define the `number and height of rows`. You can either individually set the height of each row, or set a uniform height for all rows using the repeat() function.
 
 <img src="./ReadMe-Images/grid-template-rows.png" />
+
 <img src="./ReadMe-Images/grid-template-rows-repeat.png" />
+
+<img src="./ReadMe-Images/grid-template-rows-view.png" />
 
 # Css Articles
 
@@ -454,5 +461,5 @@ define the `number and height of rows`. You can either individually set the heig
 
 # Resources from
 
-- [Joy Shahed](https://www.freecodecamp.org/news/author/joy/)
+- [Joy Shaheb](https://www.freecodecamp.org/news/author/joy/)
 - [Ahmad Shadeed](https://ishadeed.com/article/grid-layout-flexbox-components/)
