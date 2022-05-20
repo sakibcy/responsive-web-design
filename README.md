@@ -1,6 +1,8 @@
 # Responsive Web Design
 
+- [Which to use? Flexbox or Grid?](https://github.com/sakibcy/responsive-web-design/#which-to-use-flexbox-or-grid)
 - [Flexbox](https://github.com/sakibcy/responsive-web-design/#flexbox)
+- [Grid](https://github.com/sakibcy/responsive-web-design/#grid)
 - [Css Units](https://github.com/sakibcy/responsive-web-design/#css-units)
 - [Css Articles](https://github.com/sakibcy/responsive-web-design/#css-articles)
 - [Resources From](https://github.com/sakibcy/responsive-web-design/#resources-from)
@@ -24,7 +26,9 @@ However, if you see columns and rows, then CSS grid is the solution for your cas
 
 <img src="./ReadMe-Images/decide-2.png">
 
-To learn more read this article 👉 [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
+### To learn more read this article 👉 [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
+
+<img src="./ReadMe-Images/parent-childern.png" />
 
 ## FlexBox
 
@@ -143,6 +147,10 @@ You can play around with the values in this live example below and see how that 
 
 The gap CSS property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.
 
+```css
+gap: 10px;
+```
+
 <img src="./ReadMe-Images/gap.png" width="532px" height="349px" />
 
 ## flex - grow | shrink | wrap | basis properties
@@ -159,7 +167,7 @@ This property helps a flex item shrink based on the width of the flex-container.
 
 <img src="./ReadMe-Images/flex-grow.png" />
 
-Please note that flex-grow and flex-shrink work on child classes. So, we will target all our boxes like this:
+### Please note that flex-grow and flex-shrink work on child classes. So, we will target all our boxes like this:
 
 ```css
 .box-1 {
@@ -371,13 +379,80 @@ As you can see, it will always cover that much space even if we resize the windo
 
 <img src="./ReadMe-Images/resize-vh.gif">
 
-## Css Articles
+# Grid
+
+The Grid items [Contents] are distributed along the main axis and cross axis.
+
+- [Grid Architecture](https://github.com/sakibcy/responsive-web-design/#grid-architecture)
+- [Grid Chart](https://github.com/sakibcy/responsive-web-design/#grid-chart)
+- [Start using Grid](https://github.com/sakibcy/responsive-web-design/#start-using-grid)
+- [Grid Parent](https://github.com/sakibcy/responsive-web-design/#grid-parent)
+  - [grid-template-columns](https://github.com/sakibcy/responsive-web-design/#grid-template-columns)
+
+## Grid Architecture
+
+<img src="./ReadMe-Images/grid-architecture.png" />
+
+## Grid Chart
+
+Grid properties are divided into:
+
+- Parent properties
+- Child Properties
+
+Note: The `red colored text` denotes the `shorthand properties`:
+
+<img src="./ReadMe-Images/grid-parent.png" />
+
+<img src="./ReadMe-Images/grid-child.png" />
+
+## Start using Grid
+
+to use grid on items first declare it:
+
+```css
+display: grid;
+```
+
+# Grid Parent
+
+## grid-template-columns
+
+You use this property to define `the number and width of columns`.
+
+- You can either individually set the width of each column,
+- or set a uniform width for all columns using the `repeat()` function.
+
+<img src="./ReadMe-Images/grid-template-columns.png" />
+<img src="./ReadMe-Images/grid-template-columns-repeat.png" />
+
+### Note:
+
+- The pixel values will be an exact measurement. The "auto" keyword will cover the available space.
+- If you use `fr (fraction unit)` as a unit of measurement, all the boxes will be equal in size.
+- for `repeat()` you can use
+  ```css
+  grid-template-columns: repeat(3, 1fr);
+  ```
+  ### or
+  ```css
+  grid-template-columns: repeat(3, 100px);
+  ```
+
+## grid-template-rows
+
+define the `number and height of rows`. You can either individually set the height of each row, or set a uniform height for all rows using the repeat() function.
+
+<img src="./ReadMe-Images/grid-template-rows.png" />
+<img src="./ReadMe-Images/grid-template-rows-repeat.png" />
+
+# Css Articles
 
 - [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
 - [Flexbox Tutorial with Flexbox Properties Cheat Sheet 🎖️](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
 - [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
 
-## Resources from
+# Resources from
 
 - [Joy Shahed](https://www.freecodecamp.org/news/author/joy/)
 - [Ahmad Shadeed](https://ishadeed.com/article/grid-layout-flexbox-components/)
