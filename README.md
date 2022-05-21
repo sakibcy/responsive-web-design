@@ -11,6 +11,8 @@ CSS Grid is a multi-dimension layout module, which means that it has columns and
 
 <img src="./ReadMe-Images/grid-vs-flexbox.png" />
 
+<br />
+
 ## Which to use? Flexbox or Grid?
 
 Ask yourself those questions:
@@ -39,6 +41,8 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 - [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design/#flexbox-architecture)
 - [Flexbox Chart](https://github.com/sakibcy/responsive-web-design/#flexbox-chart)
 
+<br />
+
 ## Flexbox Architecture
 
 <img src='./ReadMe-Images/flexBoxArchitecture.png' />
@@ -48,6 +52,8 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 <img src='./ReadMe-Images/flexBoxChart.png' />
 <img src='./ReadMe-Images/flexBoxProperty.png' />
 
+<br />
+
 ## Use flex
 
 For start using flex first declare:
@@ -56,16 +62,22 @@ For start using flex first declare:
 display: flex;
 ```
 
+<br />
+
 ## flex-direction property
 
 This property allows us to set the direction and orientation in which our flex-items should be distributed inside the flex-container.
 <img src='./ReadMe-Images/flexDirectionRow.png' />
 <img src='./ReadMe-Images/flexDirectionColumn.png' />
 
+<br />
+
 ## flex-wrap
 
 This property helps you set the number of flex-items you want in a line or row.
 <img src="./ReadMe-Images/flex-warp.png" />
+
+<br />
 
 ## flex-flow
 
@@ -73,17 +85,23 @@ This is the shorthand for the flex-direction and flex-wrap properties:
 
 <img src="./ReadMe-Images/flex-flow.png" />
 
+<br />
+
 ## justify-content property
 
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
 <img src='./ReadMe-Images/justifyContent.png' />
 <img src='./ReadMe-Images/justifyContentSpace.png' />
 
+<br />
+
 ## text-align
 
 Arrange text to left, center, right, start, end
 
 <img src="./ReadMe-Images/text-align.png" />
+
+<br />
 
 ## align-content property
 
@@ -92,15 +110,21 @@ Please note that without the `flex-wrap` property, this property doesn't work. H
 <img src='./ReadMe-Images/alignContent.png' />
 <img src='./ReadMe-Images/alignContentSpace.png' />
 
+<br />
+
 ## place-content
 
 This is the shorthand for the align-content and justify-content properties:
 <img src='./ReadMe-Images/placeContent.png' />
 
+<br />
+
 ## align-items property
 
 This property distributes Flex-items along the `Cross Axis`.
 <img src='./ReadMe-Images/alignItem.png' />
+
+<br />
 
 ## align-self property
 
@@ -114,6 +138,8 @@ In total we have 6 values:
 - baseline
 - stretch
 - auto
+
+<br />
 
 ## The order property
 
@@ -141,7 +167,7 @@ Items have a number showing their source order which has been rearranged.
 
 <img src="./ReadMe-Images/order-property.png" />
 
-You can play around with the values in this live example below and see how that changes the order. Also, try changing flex-direction to row-reverse and see what happens — the start line is switched so the ordering begins from the opposite side.
+<br />
 
 ## gap (grid-gap)
 
@@ -152,6 +178,8 @@ gap: 10px;
 ```
 
 <img src="./ReadMe-Images/gap.png" width="532px" height="349px" />
+
+<br />
 
 ## flex - grow | shrink | wrap | basis properties
 
@@ -181,9 +209,13 @@ This property helps a flex item shrink based on the width of the flex-container.
 }
 ```
 
+<br />
+
 ## flex-basis
 
 This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.
+
+<br />
 
 ## flex shorthand
 
@@ -191,7 +223,350 @@ This is the shorthand for the flex-grow, flex-shrink and flex-basis properties c
 
 <img src="./ReadMe-Images/flex-shorthand.png" />
 
-## Css Units
+<br />
+<br />
+
+# Grid
+
+The Grid items [Contents] are distributed along the main axis and cross axis.
+
+- [Grid Architecture](https://github.com/sakibcy/responsive-web-design/#grid-architecture)
+- [Grid Chart](https://github.com/sakibcy/responsive-web-design/#grid-chart)
+- [Start using Grid](https://github.com/sakibcy/responsive-web-design/#start-using-grid)
+- [Grid Parent](https://github.com/sakibcy/responsive-web-design/#grid-parent)
+
+  - [grid-template-columns](https://github.com/sakibcy/responsive-web-design/#grid-template-columns)
+  - [grid-template-rows](https://github.com/sakibcy/responsive-web-design/#grid-template-rows)
+  - [grid-template](https://github.com/sakibcy/responsive-web-design/#grid-template)
+  - [grid-template-areas](https://github.com/sakibcy/responsive-web-design/#grid-template-areas)
+  - [column-gap](https://github.com/sakibcy/responsive-web-design/#column-gap)
+  - [row-gap](https://github.com/sakibcy/responsive-web-design/#row-gap)
+  - [justify-items](https://github.com/sakibcy/responsive-web-design/#justify-items)
+  - [justify-content](https://github.com/sakibcy/responsive-web-design/#justify-content)
+  - [align-items](https://github.com/sakibcy/responsive-web-design/#align-items)
+  - [align-content](https://github.com/sakibcy/responsive-web-design/#align-content)
+
+- [Grid Children](https://github.com/sakibcy/responsive-web-design/#grid-children)
+  - [grid-area](https://github.com/sakibcy/responsive-web-design/#grid-area)
+
+<br />
+
+## Grid Architecture
+
+<img src="./ReadMe-Images/grid-architecture.png" />
+
+<img src="./ReadMe-Images/grid-template-cloumns-rows.png" />
+
+<br />
+
+## Grid Chart
+
+Grid properties are divided into:
+
+- Parent properties
+- Child Properties
+
+Note: The `red colored text` denotes the `shorthand properties`:
+
+<img src="./ReadMe-Images/grid-parent.png" />
+
+<img src="./ReadMe-Images/grid-child.png" />
+
+## Start using Grid
+
+to use grid on items first declare it:
+
+```css
+display: grid;
+```
+
+<br />
+<br />
+
+# Grid Parent
+
+## grid-template-columns
+
+You use this property to define `the number and width of columns`.
+
+- You can either individually set the width of each column,
+- or set a uniform width for all columns using the `repeat()` function.
+
+<img src="./ReadMe-Images/grid-template-columns.png" />
+<img src="./ReadMe-Images/grid-template-columns-repeat.png" />
+
+<img src="./ReadMe-Images/grid-template-columns-view.png" />
+
+### Note:
+
+- The pixel values will be an exact measurement. The "auto" keyword will cover the available space.
+- If you use `fr (fraction unit)` as a unit of measurement, all the boxes will be equal in size.
+- for `repeat()` you can use
+  ```css
+  grid-template-columns: repeat(3, 1fr);
+  ```
+  ### or
+  ```css
+  grid-template-columns: repeat(3, 100px);
+  ```
+
+<br />
+
+## grid-template-rows
+
+define the `number and height of rows`. You can either individually set the height of each row, or set a uniform height for all rows using the repeat() function.
+
+<img src="./ReadMe-Images/grid-template-rows.png" />
+
+<img src="./ReadMe-Images/grid-template-rows-repeat.png" />
+
+<img src="./ReadMe-Images/grid-template-rows-view.png" />
+
+<br />
+
+## grid-template
+
+<img src="./ReadMe-Images/grid-template.png" />
+
+This is the shorthand of 2 properties:
+
+- grid-template-rows
+- grid-template-columns
+
+### An example
+
+```css
+grid-template-rows: 100px 100px;
+grid-template-columns: 200px 200px;
+
+/* The shorthand */
+grid-template: 100px 100px / 200px 200px;
+```
+
+<br />
+
+## grid-template-areas
+
+use this property to specify the amount of space a grid cell should carry in terms of columns and rows across the parent container.
+
+<img src="./ReadMe-Images/grid-template-areas.png" />
+
+Call it the blueprint(template) of our layout👇
+
+<img src="./ReadMe-Images/grid-template-areas-blueprint.png" />
+
+- `grid-template-areas:`
+  The parent property that will create the blueprint
+- `grid-area:` the child property that will follow the blueprint.
+
+### First, create the blueprint
+
+Like this 👇 inside the `parent .container` class:
+
+```css
+.container {
+  display: grid;
+  gap: 20px;
+  height: 100vh;
+
+  grid-template-areas:
+    "A A A A   A A A A   A A A A"
+    "B B B B   B B B B   B B C C"
+    "B B B B   B B B B   B B C C";
+}
+```
+
+<br />
+
+## grid-area
+
+<img src="./ReadMe-Images/grid-template-areas-parent.png" />
+<img src="./ReadMe-Images/grid-template-areas-children.png" />
+
+### Implement the blueprint
+
+Target all our `child .box-\*` classes and set the values like this
+
+```css
+.box-1 {
+  grid-area: A;
+}
+.box-2 {
+  grid-area: B;
+}
+.box-3 {
+  grid-area: C;
+}
+```
+
+<br />
+
+## column-gap
+
+`column-gap` works with `grid-template-columns`
+
+<img src="./ReadMe-Images/column-gap.png" />
+
+<br />
+
+## row-gap
+
+`row-gap` works with `grid-template-rows`
+
+<img src="./ReadMe-Images/row-gap.png" />
+
+<br />
+
+## justify-items
+
+You use this property to `position grid-items (children) inside grid containers along the X-Axis [Main Axis]`. The 4 values are 👇
+Alt Text
+
+<img src="./ReadMe-Images/justify-items-start.png" />
+
+<img src="./ReadMe-Images/justify-items-center.png" />
+
+<br />
+
+## justify-content
+
+You use this property to `position your grid [Basically everything] inside the grid container along the X-Axis [Main Axis]`. The 7 values are 👇
+
+<img src="./ReadMe-Images/justify-content-start.png" />
+
+<img src="./ReadMe-Images/justify-content-space.png" />
+
+<br />
+
+## align-items
+
+use this property to `position grid-items (children) inside the grid container along the Y-Axis [Cross Axis]`.
+
+ <img src="./ReadMe-Images/align-items.png" />
+
+ <br />
+
+## align-content
+
+use this property to `position our grid [Basically everything] inside the grid container along the Y-Axis [Cross Axis]`.
+
+<img src="./ReadMe-Images/align-content-start.png" />
+
+<img src="./ReadMe-Images/align-content-space.png" />
+
+<br />
+
+## place-items
+
+short form of
+
+- justify-items
+- align-items
+
+## place-content
+
+short form of
+
+- justify-content
+- align-content
+
+<br />
+
+# Grid Children
+
+<img src="./ReadMe-Images/grid-scale.png" />
+
+The illustration below 👇 shows the start and end points of rows and columns of a single cell.
+
+<img src="./ReadMe-Images/grid-column-row.png" />
+
+## grid-column-start - grid-column-end
+
+join multiple Columns together\
+Write this code in your CSS:
+
+```css
+.container {
+  display: grid;
+  gap: 20px;
+  height: 100vh;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+```
+
+The result looks like this:
+
+<img src="./ReadMe-Images/grid-columns-start.png" />
+
+As we are dealing with child properties, we need to target our `.box-*` classes like this:
+
+```css
+.box-1 {
+}
+.box-2 {
+}
+.box-3 {
+}
+.box-4 {
+}
+```
+
+The default scale of every `.box-*` class is:
+
+```css
+grid-column-start: 1;
+grid-column-end: 10;
+
+/* The shorthand -> */
+grid-column: 1 / 10;
+/* or */
+grid-column: span 10;
+```
+
+The result looks like this: 👇
+
+<img src="./ReadMe-Images/grid-column-result.png" />
+
+## grid-column
+
+short form of
+
+- grid-column-start
+- grid-column-end
+
+```css
+grid-column-start: 1;
+grid-column-end: 2;
+
+/* The shorthand -> */
+grid-column: 1 / 10;
+/* or */
+grid-column: span 10;
+```
+
+## grid-row-start - grid-row-end
+
+use these two properties to join multiple `ROWS` together.
+
+```css
+.box-1 {
+  grid-row-start: 1;
+  grid-row-end: 11;
+
+  /* shorthand */
+  grid-row: 1/11;
+}
+```
+
+<img src="./ReadMe-Images/grid-row.png" />
+
+<br/>
+<br>
+<br>
+
+# Css Units
 
 ### REM, EM, VW, VH are relative units
 
@@ -379,85 +754,12 @@ As you can see, it will always cover that much space even if we resize the windo
 
 <img src="./ReadMe-Images/resize-vh.gif">
 
-# Grid
-
-The Grid items [Contents] are distributed along the main axis and cross axis.
-
-- [Grid Architecture](https://github.com/sakibcy/responsive-web-design/#grid-architecture)
-- [Grid Chart](https://github.com/sakibcy/responsive-web-design/#grid-chart)
-- [Start using Grid](https://github.com/sakibcy/responsive-web-design/#start-using-grid)
-- [Grid Parent](https://github.com/sakibcy/responsive-web-design/#grid-parent)
-  - [grid-template-columns](https://github.com/sakibcy/responsive-web-design/#grid-template-columns)
-
-## Grid Architecture
-
-<img src="./ReadMe-Images/grid-architecture.png" />
-
-<img src="./ReadMe-Images/grid-template-cloumns-rows.png" />
-
-## Grid Chart
-
-Grid properties are divided into:
-
-- Parent properties
-- Child Properties
-
-Note: The `red colored text` denotes the `shorthand properties`:
-
-<img src="./ReadMe-Images/grid-parent.png" />
-
-<img src="./ReadMe-Images/grid-child.png" />
-
-## Start using Grid
-
-to use grid on items first declare it:
-
-```css
-display: grid;
-```
-
-# Grid Parent
-
-## grid-template-columns
-
-You use this property to define `the number and width of columns`.
-
-- You can either individually set the width of each column,
-- or set a uniform width for all columns using the `repeat()` function.
-
-<img src="./ReadMe-Images/grid-template-columns.png" />
-<img src="./ReadMe-Images/grid-template-columns-repeat.png" />
-
-<img src="./ReadMe-Images/grid-template-columns-view.png" />
-
-### Note:
-
-- The pixel values will be an exact measurement. The "auto" keyword will cover the available space.
-- If you use `fr (fraction unit)` as a unit of measurement, all the boxes will be equal in size.
-- for `repeat()` you can use
-  ```css
-  grid-template-columns: repeat(3, 1fr);
-  ```
-  ### or
-  ```css
-  grid-template-columns: repeat(3, 100px);
-  ```
-
-## grid-template-rows
-
-define the `number and height of rows`. You can either individually set the height of each row, or set a uniform height for all rows using the repeat() function.
-
-<img src="./ReadMe-Images/grid-template-rows.png" />
-
-<img src="./ReadMe-Images/grid-template-rows-repeat.png" />
-
-<img src="./ReadMe-Images/grid-template-rows-view.png" />
-
 # Css Articles
 
 - [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
 - [Flexbox Tutorial with Flexbox Properties Cheat Sheet 🎖️](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
 - [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
+- [CSS Notes for Professionals book](https://goalkicker.com/CSSBook/)
 
 # Resources from
 
