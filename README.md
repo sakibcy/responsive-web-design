@@ -562,6 +562,10 @@ use these two properties to join multiple `ROWS` together.
 
 <img src="./ReadMe-Images/grid-row.png" />
 
+<br />
+
+## Media Queries
+
 <br/>
 <br>
 <br>
