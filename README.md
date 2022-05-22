@@ -9,7 +9,7 @@
 
 CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both.
 
-<img src="./ReadMe-Images/grid-vs-flexbox.png" />
+<img src="./images/grid-vs-flexbox.png" />
 
 <br />
 
@@ -22,15 +22,15 @@ Ask yourself those questions:
 
 Most of the time, if the component you are viewing has `all of its child items displayed inline`, then most probably `flexbox is the best solution here`. Consider the following example:
 
-<img src="./ReadMe-Images/decide-1.png" />
+<img src="./images/decide-1.png" />
 
 However, if you see columns and rows, then CSS grid is the solution for your case.
 
-<img src="./ReadMe-Images/decide-2.png">
+<img src="./images/decide-2.png">
 
 ### To learn more read this article 👉 [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
 
-<img src="./ReadMe-Images/parent-childern.png" />
+<img src="./images/parent-childern.png" />
 
 ## FlexBox
 
@@ -45,12 +45,12 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 
 ## Flexbox Architecture
 
-<img src='./ReadMe-Images/flexBoxArchitecture.png' />
+<img src='./images/flexBoxArchitecture.png' />
 
 ## Flexbox Chart
 
-<img src='./ReadMe-Images/flexBoxChart.png' />
-<img src='./ReadMe-Images/flexBoxProperty.png' />
+<img src='./images/flexBoxChart.png' />
+<img src='./images/flexBoxProperty.png' />
 
 <br />
 
@@ -67,15 +67,15 @@ display: flex;
 ## flex-direction property
 
 This property allows us to set the direction and orientation in which our flex-items should be distributed inside the flex-container.
-<img src='./ReadMe-Images/flexDirectionRow.png' />
-<img src='./ReadMe-Images/flexDirectionColumn.png' />
+<img src='./images/flexDirectionRow.png' />
+<img src='./images/flexDirectionColumn.png' />
 
 <br />
 
 ## flex-wrap
 
 This property helps you set the number of flex-items you want in a line or row.
-<img src="./ReadMe-Images/flex-warp.png" />
+<img src="./images/flex-warp.png" />
 
 <br />
 
@@ -83,15 +83,15 @@ This property helps you set the number of flex-items you want in a line or row.
 
 This is the shorthand for the flex-direction and flex-wrap properties:
 
-<img src="./ReadMe-Images/flex-flow.png" />
+<img src="./images/flex-flow.png" />
 
 <br />
 
 ## justify-content property
 
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
-<img src='./ReadMe-Images/justifyContent.png' />
-<img src='./ReadMe-Images/justifyContentSpace.png' />
+<img src='./images/justifyContent.png' />
+<img src='./images/justifyContentSpace.png' />
 
 <br />
 
@@ -99,7 +99,7 @@ This property arranges flex-items along the MAIN AXIS inside the flex-container.
 
 Arrange text to left, center, right, start, end
 
-<img src="./ReadMe-Images/text-align.png" />
+<img src="./images/text-align.png" />
 
 <br />
 
@@ -107,29 +107,29 @@ Arrange text to left, center, right, start, end
 
 This property arranges flex-items along the CROSS AXIS inside the flex-container. This is similar to justify-content.
 Please note that without the `flex-wrap` property, this property doesn't work. Here's a demo:
-<img src='./ReadMe-Images/alignContent.png' />
-<img src='./ReadMe-Images/alignContentSpace.png' />
+<img src='./images/alignContent.png' />
+<img src='./images/alignContentSpace.png' />
 
 <br />
 
 ## place-content
 
 This is the shorthand for the align-content and justify-content properties:
-<img src='./ReadMe-Images/placeContent.png' />
+<img src='./images/placeContent.png' />
 
 <br />
 
 ## align-items property
 
 This property distributes Flex-items along the `Cross Axis`.
-<img src='./ReadMe-Images/alignItem.png' />
+<img src='./images/alignItem.png' />
 
 <br />
 
 ## align-self property
 
 This property works on the child classes. It positions the selected item along the Cross Axis.
-<img src='./ReadMe-Images/alignSelf.png' />
+<img src='./images/alignSelf.png' />
 In total we have 6 values:
 
 - flex-start
@@ -165,7 +165,7 @@ These items would be displayed on the page in the following order:
 
 Items have a number showing their source order which has been rearranged.
 
-<img src="./ReadMe-Images/order-property.png" />
+<img src="./images/order-property.png" />
 
 <br />
 
@@ -177,7 +177,7 @@ The gap CSS property sets the gaps (gutters) between rows and columns. It is a s
 gap: 10px;
 ```
 
-<img src="./ReadMe-Images/gap.png" width="532px" height="349px" />
+<img src="./images/gap.png" width="532px" height="349px" />
 
 <br />
 
@@ -193,7 +193,7 @@ This property grows the size of a flex-item based on the width of the flex-conta
 
 This property helps a flex item shrink based on the width of the flex-container. It's the opposite of flex-grow.
 
-<img src="./ReadMe-Images/flex-grow.png" />
+<img src="./images/flex-grow.png" />
 
 ### Please note that flex-grow and flex-shrink work on child classes. So, we will target all our boxes like this:
 
@@ -221,7 +221,7 @@ This is similar to adding width to a flex-item, but only more flexible. flex-bas
 
 This is the shorthand for the flex-grow, flex-shrink and flex-basis properties combined.
 
-<img src="./ReadMe-Images/flex-shorthand.png" />
+<img src="./images/flex-shorthand.png" />
 
 <br />
 <br />
@@ -253,9 +253,9 @@ The Grid items [Contents] are distributed along the main axis and cross axis.
 
 ## Grid Architecture
 
-<img src="./ReadMe-Images/grid-architecture.png" />
+<img src="./images/grid-architecture.png" />
 
-<img src="./ReadMe-Images/grid-template-cloumns-rows.png" />
+<img src="./images/grid-template-cloumns-rows.png" />
 
 <br />
 
@@ -268,9 +268,9 @@ Grid properties are divided into:
 
 Note: The `red colored text` denotes the `shorthand properties`:
 
-<img src="./ReadMe-Images/grid-parent.png" />
+<img src="./images/grid-parent.png" />
 
-<img src="./ReadMe-Images/grid-child.png" />
+<img src="./images/grid-child.png" />
 
 ## Start using Grid
 
@@ -292,10 +292,10 @@ You use this property to define `the number and width of columns`.
 - You can either individually set the width of each column,
 - or set a uniform width for all columns using the `repeat()` function.
 
-<img src="./ReadMe-Images/grid-template-columns.png" />
-<img src="./ReadMe-Images/grid-template-columns-repeat.png" />
+<img src="./images/grid-template-columns.png" />
+<img src="./images/grid-template-columns-repeat.png" />
 
-<img src="./ReadMe-Images/grid-template-columns-view.png" />
+<img src="./images/grid-template-columns-view.png" />
 
 ### Note:
 
@@ -316,17 +316,17 @@ You use this property to define `the number and width of columns`.
 
 define the `number and height of rows`. You can either individually set the height of each row, or set a uniform height for all rows using the repeat() function.
 
-<img src="./ReadMe-Images/grid-template-rows.png" />
+<img src="./images/grid-template-rows.png" />
 
-<img src="./ReadMe-Images/grid-template-rows-repeat.png" />
+<img src="./images/grid-template-rows-repeat.png" />
 
-<img src="./ReadMe-Images/grid-template-rows-view.png" />
+<img src="./images/grid-template-rows-view.png" />
 
 <br />
 
 ## grid-template
 
-<img src="./ReadMe-Images/grid-template.png" />
+<img src="./images/grid-template.png" />
 
 This is the shorthand of 2 properties:
 
@@ -349,11 +349,11 @@ grid-template: 100px 100px / 200px 200px;
 
 use this property to specify the amount of space a grid cell should carry in terms of columns and rows across the parent container.
 
-<img src="./ReadMe-Images/grid-template-areas.png" />
+<img src="./images/grid-template-areas.png" />
 
 Call it the blueprint(template) of our layout👇
 
-<img src="./ReadMe-Images/grid-template-areas-blueprint.png" />
+<img src="./images/grid-template-areas-blueprint.png" />
 
 - `grid-template-areas:`
   The parent property that will create the blueprint
@@ -380,8 +380,8 @@ Like this 👇 inside the `parent .container` class:
 
 ## grid-area
 
-<img src="./ReadMe-Images/grid-template-areas-parent.png" />
-<img src="./ReadMe-Images/grid-template-areas-children.png" />
+<img src="./images/grid-template-areas-parent.png" />
+<img src="./images/grid-template-areas-children.png" />
 
 ### Implement the blueprint
 
@@ -405,7 +405,7 @@ Target all our `child .box-\*` classes and set the values like this
 
 `column-gap` works with `grid-template-columns`
 
-<img src="./ReadMe-Images/column-gap.png" />
+<img src="./images/column-gap.png" />
 
 <br />
 
@@ -413,7 +413,7 @@ Target all our `child .box-\*` classes and set the values like this
 
 `row-gap` works with `grid-template-rows`
 
-<img src="./ReadMe-Images/row-gap.png" />
+<img src="./images/row-gap.png" />
 
 <br />
 
@@ -422,9 +422,9 @@ Target all our `child .box-\*` classes and set the values like this
 You use this property to `position grid-items (children) inside grid containers along the X-Axis [Main Axis]`. The 4 values are 👇
 Alt Text
 
-<img src="./ReadMe-Images/justify-items-start.png" />
+<img src="./images/justify-items-start.png" />
 
-<img src="./ReadMe-Images/justify-items-center.png" />
+<img src="./images/justify-items-center.png" />
 
 <br />
 
@@ -432,9 +432,9 @@ Alt Text
 
 You use this property to `position your grid [Basically everything] inside the grid container along the X-Axis [Main Axis]`. The 7 values are 👇
 
-<img src="./ReadMe-Images/justify-content-start.png" />
+<img src="./images/justify-content-start.png" />
 
-<img src="./ReadMe-Images/justify-content-space.png" />
+<img src="./images/justify-content-space.png" />
 
 <br />
 
@@ -442,7 +442,7 @@ You use this property to `position your grid [Basically everything] inside the g
 
 use this property to `position grid-items (children) inside the grid container along the Y-Axis [Cross Axis]`.
 
- <img src="./ReadMe-Images/align-items.png" />
+ <img src="./images/align-items.png" />
 
  <br />
 
@@ -450,9 +450,9 @@ use this property to `position grid-items (children) inside the grid container a
 
 use this property to `position our grid [Basically everything] inside the grid container along the Y-Axis [Cross Axis]`.
 
-<img src="./ReadMe-Images/align-content-start.png" />
+<img src="./images/align-content-start.png" />
 
-<img src="./ReadMe-Images/align-content-space.png" />
+<img src="./images/align-content-space.png" />
 
 <br />
 
@@ -474,11 +474,11 @@ short form of
 
 # Grid Children
 
-<img src="./ReadMe-Images/grid-scale.png" />
+<img src="./images/grid-scale.png" />
 
 The illustration below 👇 shows the start and end points of rows and columns of a single cell.
 
-<img src="./ReadMe-Images/grid-column-row.png" />
+<img src="./images/grid-column-row.png" />
 
 ## grid-column-start - grid-column-end
 
@@ -498,7 +498,7 @@ Write this code in your CSS:
 
 The result looks like this:
 
-<img src="./ReadMe-Images/grid-columns-start.png" />
+<img src="./images/grid-columns-start.png" />
 
 As we are dealing with child properties, we need to target our `.box-*` classes like this:
 
@@ -527,7 +527,7 @@ grid-column: span 10;
 
 The result looks like this: 👇
 
-<img src="./ReadMe-Images/grid-column-result.png" />
+<img src="./images/grid-column-result.png" />
 
 ## grid-column
 
@@ -560,11 +560,79 @@ use these two properties to join multiple `ROWS` together.
 }
 ```
 
-<img src="./ReadMe-Images/grid-row.png" />
+<img src="./images/grid-row.png" />
+
+<br />
+<br />
+<br />
+
+# Media Queries
+
+### CSS Media Query Syntax
+
+Here's the syntax of a Media Query:
+
+```css
+@media screen and (max-width: 768px) {
+  .container {
+    //Your code's here
+  }
+}
+```
+
+<img src="./images/media-query-syntex.png" />
 
 <br />
 
-## Media Queries
+### We declare media queries with `@media` first.
+
+### `@media type`
+
+<img src="./images/media-type.png" />
+
+the media type, min-width, and max-width functions are basically conditions we are giving to the browser. We don't write the "and" operator if we have one condition. Like this ->
+
+```css
+@media screen {
+  .container {
+    // Your code here
+  }
+}
+```
+
+We write the and operator if we have two conditions, like this:
+
+```css
+@media screen and (max-width: 768px) {
+  .container {
+    // Your code here
+  }
+}
+```
+
+You can also skip the media type and work with just min-width & max-width, like this:
+
+```css
+//Targeting screen sizes between 480px & 768px
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .container {
+    // Your code here
+  }
+}
+```
+
+If you have three conditions or more, you can use a comma, like this:
+
+```css
+//Targeting screen sizes between 480px & 768px
+
+@media screen, (min-width: 480px) and (max-width: 768px) {
+  .container {
+    // Your code here
+  }
+}
+```
 
 <br/>
 <br>
@@ -576,19 +644,19 @@ use these two properties to join multiple `ROWS` together.
 
 #### Font using the REM unit
 
-<img src="./ReadMe-Images/rem-unit.gif" />
+<img src="./images/rem-unit.gif" />
 
 #### pixels are absolute units.
 
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
-<img src="./ReadMe-Images/pixel-unit.gif">
+<img src="./images/pixel-unit.gif">
 
 ## REM Unit
 
 The REM unit depends on the `root element [the HTML element]`. Here's an image to show you how it works:👇
 
-<img src='./ReadMe-Images/htmlRem.png' />
+<img src='./images/htmlRem.png' />
 
 ## How to change the root font-size
 
@@ -644,7 +712,7 @@ Write your styles in rem units instead of the pixels and change the root element
 
 And here's the result: 👇
 
-<img src="./ReadMe-Images/rem-web.gif">
+<img src="./images/rem-web.gif">
 
 Here are the calculations:
 
@@ -702,11 +770,11 @@ padding => 3em * 3em * 16px = 144px
 
 Instead of being 48px of padding, we are getting 144px padding. As you can see, it is getting multiplied by the previous number.
 
-<img src="./ReadMe-Images/em.png" />
+<img src="./images/em.png" />
 
 Here's the computed part from the developer console: 👇
 
-<img src="./ReadMe-Images/em-padding.png" />
+<img src="./images/em-padding.png" />
 
 ## VW unit - viewport width
 
@@ -727,11 +795,11 @@ It works like the percentage unit. Specifying `50vw` is equivalent to occupying 
 
 If you look carefully, you can see that 50vw means 50%, which will cover half of the entire screen width.
 
-<img src="./ReadMe-Images/50vw.png" />
+<img src="./images/50vw.png" />
 
 resizing box which is 50vw in size. It is taking 50% of entire screen even if we resize the window.
 
-<img src="./ReadMe-Images/resizevw.gif">
+<img src="./images/resizevw.gif">
 
 ## VH unit - viewport height
 
@@ -752,11 +820,11 @@ It works like the percentage unit as well. Specifying `50vh` is equivalent to `o
 
 And here's the result: 👇
 
-<img src="./ReadMe-Images/50vh.png" />
+<img src="./images/50vh.png" />
 
 As you can see, it will always cover that much space even if we resize the window.
 
-<img src="./ReadMe-Images/resize-vh.gif">
+<img src="./images/resize-vh.gif">
 
 # Css Articles
 
