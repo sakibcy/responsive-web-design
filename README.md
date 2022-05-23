@@ -1,11 +1,11 @@
 # Responsive Web Design
 
-- [Which to use? Flexbox or Grid?](https://github.com/sakibcy/responsive-web-design/#which-to-use-flexbox-or-grid)
-- [Flexbox](https://github.com/sakibcy/responsive-web-design/#flexbox)
-- [Grid](https://github.com/sakibcy/responsive-web-design/#grid)
-- [Css Units](https://github.com/sakibcy/responsive-web-design/#css-units)
-- [Css Articles](https://github.com/sakibcy/responsive-web-design/#css-articles)
-- [Resources From](https://github.com/sakibcy/responsive-web-design/#resources-from)
+- [Which to use? Flexbox or Grid?](https://github.com/sakibcy/responsive-web-design#which-to-use-flexbox-or-grid)
+- [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
+- [Grid](https://github.com/sakibcy/responsive-web-design#grid)
+- [Css Units](https://github.com/sakibcy/responsive-web-design#css-units)
+- [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
+- [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from)
 
 CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both.
 
@@ -230,24 +230,24 @@ This is the shorthand for the flex-grow, flex-shrink and flex-basis properties c
 
 The Grid items [Contents] are distributed along the main axis and cross axis.
 
-- [Grid Architecture](https://github.com/sakibcy/responsive-web-design/#grid-architecture)
-- [Grid Chart](https://github.com/sakibcy/responsive-web-design/#grid-chart)
-- [Start using Grid](https://github.com/sakibcy/responsive-web-design/#start-using-grid)
-- [Grid Parent](https://github.com/sakibcy/responsive-web-design/#grid-parent)
+- [Grid Architecture](https://github.com/sakibcy/responsive-web-design#grid-architecture)
+- [Grid Chart](https://github.com/sakibcy/responsive-web-design#grid-chart)
+- [Start using Grid](https://github.com/sakibcy/responsive-web-design#start-using-grid)
+- [Grid Parent](https://github.com/sakibcy/responsive-web-design#grid-parent)
 
-  - [grid-template-columns](https://github.com/sakibcy/responsive-web-design/#grid-template-columns)
-  - [grid-template-rows](https://github.com/sakibcy/responsive-web-design/#grid-template-rows)
-  - [grid-template](https://github.com/sakibcy/responsive-web-design/#grid-template)
-  - [grid-template-areas](https://github.com/sakibcy/responsive-web-design/#grid-template-areas)
-  - [column-gap](https://github.com/sakibcy/responsive-web-design/#column-gap)
-  - [row-gap](https://github.com/sakibcy/responsive-web-design/#row-gap)
-  - [justify-items](https://github.com/sakibcy/responsive-web-design/#justify-items)
-  - [justify-content](https://github.com/sakibcy/responsive-web-design/#justify-content)
-  - [align-items](https://github.com/sakibcy/responsive-web-design/#align-items)
-  - [align-content](https://github.com/sakibcy/responsive-web-design/#align-content)
+  - [grid-template-columns](https://github.com/sakibcy/responsive-web-design#grid-template-columns)
+  - [grid-template-rows](https://github.com/sakibcy/responsive-web-design#grid-template-rows)
+  - [grid-template](https://github.com/sakibcy/responsive-web-design#grid-template)
+  - [grid-template-areas](https://github.com/sakibcy/responsive-web-design#grid-template-areas)
+  - [column-gap](https://github.com/sakibcy/responsive-web-design#column-gap)
+  - [row-gap](https://github.com/sakibcy/responsive-web-design#row-gap)
+  - [justify-items](https://github.com/sakibcy/responsive-web-design#justify-items)
+  - [justify-content](https://github.com/sakibcy/responsive-web-design#justify-content)
+  - [align-items](https://github.com/sakibcy/responsive-web-design#align-items)
+  - [align-content](https://github.com/sakibcy/responsive-web-design#align-content)
 
-- [Grid Children](https://github.com/sakibcy/responsive-web-design/#grid-children)
-  - [grid-area](https://github.com/sakibcy/responsive-web-design/#grid-area)
+- [Grid Children](https://github.com/sakibcy/responsive-web-design#grid-children)
+  - [grid-area](https://github.com/sakibcy/responsive-web-design#grid-area)
 
 <br />
 
@@ -634,9 +634,52 @@ If you have three conditions or more, you can use a comma, like this:
 }
 ```
 
-<br/>
-<br>
-<br>
+<br />
+
+## min-width & max-width
+
+- [max-width](https://github.com/sakibcy/responsive-web-design#max-width)
+- [min-width](https://github.com/sakibcy/responsive-web-design#min-width)
+- [ Media Queries for Standard Devices ](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+
+there's no such thing as a standard screen break-point guide because there are so many screen sizes on the market
+
+<img src="./images/bootstrap5-break-point.png" />
+
+<br />
+
+## max-width
+
+Using this function, we are creating a boundary. This will work as long as we are inside the boundary. Here's a sample 👇
+
+Our Boundary is 500px:\
+Notice how the light purple color gets Disabled when we hit above 500px.
+
+<img src="./images/max-width.gif" />
+<img src="./images/max-width-img.png" />
+
+<br />
+
+## min-width function:
+
+We are also creating a boundary here. But this will work if we go outside the boundary. Here's a sample: 👇
+
+Our boundary is 500px:\
+Notice how the light purple color gets enabled after we hit above 500px width.
+
+<img src="./images/min-width.gif" />
+<img src="./images/min-width-img.png" />
+
+<br />
+
+## desktop first approach vs mobile first approach
+
+- `mobile first approach` : min-width
+- `desktop first approach` : max-width
+
+  <br/>
+  <br>
+  <br>
 
 # Css Units
 
@@ -831,6 +874,7 @@ As you can see, it will always cover that much space even if we resize the windo
 - [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
 - [Flexbox Tutorial with Flexbox Properties Cheat Sheet 🎖️](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
 - [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
+- [ Media Queries for Standard Devices ](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 - [CSS Notes for Professionals book](https://goalkicker.com/CSSBook/)
 
 # Resources from
