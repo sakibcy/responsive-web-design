@@ -1,11 +1,64 @@
 # Responsive Web Design
 
 - [Which to use? Flexbox or Grid?](https://github.com/sakibcy/responsive-web-design#which-to-use-flexbox-or-grid)
-- [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
-- [Grid](https://github.com/sakibcy/responsive-web-design#grid)
-- [Css Units](https://github.com/sakibcy/responsive-web-design#css-units)
-- [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
-- [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from)
+- ## [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
+
+  - [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design/#flexbox-architecture)
+  - [Flexbox Chart](https://github.com/sakibcy/responsive-web-design/#flexbox-chart)
+  - #### Property
+    - [Start using Flex](https://github.com/sakibcy/responsive-web-design#star-using-flex)
+    - [flex-dierection](https://github.com/sakibcy/responsive-web-design#flex-direction-property)
+    - [flex-wrap](https://github.com/sakibcy/responsive-web-design#flex-wrap)
+    - [flex-flow](https://github.com/sakibcy/responsive-web-design#flex-flow)
+    - [justify-content](https://github.com/sakibcy/responsive-web-design#justify-content-property)
+    - [text-align](https://github.com/sakibcy/responsive-web-design#text-align)
+    - [align-content](https://github.com/sakibcy/responsive-web-design#align-content-property)
+    - [place-content](https://github.com/sakibcy/responsive-web-design#place-content)
+    - [align-items](https://github.com/sakibcy/responsive-web-design#align-items-property)
+    - [align-self](https://github.com/sakibcy/responsive-web-design#align-self-property)
+    - [Order Property](https://github.com/sakibcy/responsive-web-design#the-order-property)
+    - [grid (grid-gap)](https://github.com/sakibcy/responsive-web-design#gap-grid-gap)
+    - [flex-grow](https://github.com/sakibcy/responsive-web-design#flex-grow)
+    - [flex-shrink](https://github.com/sakibcy/responsive-web-design#flex-shrink)
+    - [flex-basis](https://github.com/sakibcy/responsive-web-design#flex-basis)
+    - [flex-shorthand](https://github.com/sakibcy/responsive-web-design#flex-shorthand)
+
+- ## [Grid](https://github.com/sakibcy/responsive-web-design#grid)
+
+  - [Grid Architecture](https://github.com/sakibcy/responsive-web-design#grid-architecture)
+  - [Grid Chart](https://github.com/sakibcy/responsive-web-design#grid-chart)
+  - [Start using Grid](https://github.com/sakibcy/responsive-web-design#start-using-grid)
+  - [Grid Parent](https://github.com/sakibcy/responsive-web-design#grid-parent)
+
+    - [grid-template-columns](https://github.com/sakibcy/responsive-web-design#grid-template-columns)
+    - [grid-template-rows](https://github.com/sakibcy/responsive-web-design#grid-template-rows)
+    - [grid-template](https://github.com/sakibcy/responsive-web-design#grid-template)
+    - [grid-template-areas](https://github.com/sakibcy/responsive-web-design#grid-template-areas)
+      - [grid-area (children)](https://github.com/sakibcy/responsive-web-design#grid-area)
+    - [column-gap](https://github.com/sakibcy/responsive-web-design#column-gap)
+    - [row-gap](https://github.com/sakibcy/responsive-web-design#row-gap)
+    - [justify-items](https://github.com/sakibcy/responsive-web-design#justify-items)
+    - [justify-content](https://github.com/sakibcy/responsive-web-design#justify-content)
+    - [align-items](https://github.com/sakibcy/responsive-web-design#align-items)
+    - [align-content](https://github.com/sakibcy/responsive-web-design#align-content)
+    - [place-items](https://github.com/sakibcy/responsive-web-design#place-items)
+    - [place-content](https://github.com/sakibcy/responsive-web-design#place-content)
+
+  - [Grid Children](https://github.com/sakibcy/responsive-web-design#grid-children)
+    - [grid-area](https://github.com/sakibcy/responsive-web-design#grid-area)
+    - [grid-column-start, grid-column-end](https://github.com/sakibcy/responsive-web-design#grid-column-start---grid-column-end)
+    - [grid-column](https://github.com/sakibcy/responsive-web-design#grid-column)
+    - [grid-row-start, grid-row-end](https://github.com/sakibcy/responsive-web-design#grid-row-start---grid-row-end)
+
+- ## [Css Units](https://github.com/sakibcy/responsive-web-design#css-units)
+  - [REM Unit](https://github.com/sakibcy/responsive-web-design#rem-unit)
+  - [How to change the root font-size](https://github.com/sakibcy/responsive-web-design#how-to-change-the-root-font-size)
+  - [How to Make Responsive Websites with REM Units](https://github.com/sakibcy/responsive-web-design#how-to-make-responsive-websites-with-rem-units)
+  - [EM Unit](https://github.com/sakibcy/responsive-web-design#em-units)
+  - [VW unit - viewport width](https://github.com/sakibcy/responsive-web-design#vw-unit---viewport-width)
+  - [VH unit - viewport height](https://github.com/sakibcy/responsive-web-design#vh-unit---viewport-height)
+- ## [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
+- ## [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from)
 
 CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both.
 
@@ -42,8 +95,25 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 
 - [Flexbox Architecture](https://github.com/sakibcy/responsive-web-design/#flexbox-architecture)
 - [Flexbox Chart](https://github.com/sakibcy/responsive-web-design/#flexbox-chart)
+- #### Property
+  - [Start using Flex](https://github.com/sakibcy/responsive-web-design#star-using-flex)
+  - [flex-dierection](https://github.com/sakibcy/responsive-web-design#flex-direction-property)
+  - [flex-wrap](https://github.com/sakibcy/responsive-web-design#flex-wrap)
+  - [flex-flow](https://github.com/sakibcy/responsive-web-design#flex-flow)
+  - [justify-content](https://github.com/sakibcy/responsive-web-design#justify-content-property)
+  - [text-align](https://github.com/sakibcy/responsive-web-design#text-align)
+  - [align-content](https://github.com/sakibcy/responsive-web-design#align-content-property)
+  - [place-content](https://github.com/sakibcy/responsive-web-design#place-content)
+  - [align-items](https://github.com/sakibcy/responsive-web-design#align-items-property)
+  - [align-self](https://github.com/sakibcy/responsive-web-design#align-self-property)
+  - [Order Property](https://github.com/sakibcy/responsive-web-design#the-order-property)
+  - [grid (grid-gap)](https://github.com/sakibcy/responsive-web-design#gap-grid-gap)
+  - [flex-grow](https://github.com/sakibcy/responsive-web-design#flex-grow)
+  - [flex-shrink](https://github.com/sakibcy/responsive-web-design#flex-shrink)
+  - [flex-basis](https://github.com/sakibcy/responsive-web-design#flex-basis)
+  - [flex-shorthand](https://github.com/sakibcy/responsive-web-design#flex-shorthand)
 
-<br />
+<br /><br />
 
 ## Flexbox Architecture
 
@@ -56,7 +126,7 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 
 <br /><br />
 
-# Star using flex
+# Star using Flex
 
 For start using flex first declare:
 
@@ -240,15 +310,21 @@ The Grid items [Contents] are distributed along the main axis and cross axis.
   - [grid-template-rows](https://github.com/sakibcy/responsive-web-design#grid-template-rows)
   - [grid-template](https://github.com/sakibcy/responsive-web-design#grid-template)
   - [grid-template-areas](https://github.com/sakibcy/responsive-web-design#grid-template-areas)
+    - [grid-area (children)](https://github.com/sakibcy/responsive-web-design#grid-area)
   - [column-gap](https://github.com/sakibcy/responsive-web-design#column-gap)
   - [row-gap](https://github.com/sakibcy/responsive-web-design#row-gap)
   - [justify-items](https://github.com/sakibcy/responsive-web-design#justify-items)
   - [justify-content](https://github.com/sakibcy/responsive-web-design#justify-content)
   - [align-items](https://github.com/sakibcy/responsive-web-design#align-items)
   - [align-content](https://github.com/sakibcy/responsive-web-design#align-content)
+  - [place-items](https://github.com/sakibcy/responsive-web-design#place-items)
+  - [place-content](https://github.com/sakibcy/responsive-web-design#place-content)
 
 - [Grid Children](https://github.com/sakibcy/responsive-web-design#grid-children)
   - [grid-area](https://github.com/sakibcy/responsive-web-design#grid-area)
+  - [grid-column-start, grid-column-end](https://github.com/sakibcy/responsive-web-design#grid-column-start---grid-column-end)
+  - [grid-column](https://github.com/sakibcy/responsive-web-design#grid-column)
+  - [grid-row-start, grid-row-end](https://github.com/sakibcy/responsive-web-design#grid-row-start---grid-row-end)
 
 <br /><br />
 
@@ -576,6 +652,14 @@ use these two properties to join multiple `ROWS` together.
 
 # Media Queries
 
+- [Css Media Query Syntex](https://github.com/sakibcy/responsive-web-design#css-media-query-syntax)
+- [min-width & max-width](https://github.com/sakibcy/responsive-web-design#min-width--max-width)
+- [max-width](https://github.com/sakibcy/responsive-web-design#max-width)
+- [min-width](https://github.com/sakibcy/responsive-web-design#min-width)
+- [desktop first approach vs mobile first approach](https://github.com/sakibcy/responsive-web-design#desktop-first-approach-vs-mobile-first-approach)
+
+<br /><br />
+
 ### CSS Media Query Syntax
 
 Here's the syntax of a Media Query:
@@ -689,13 +773,22 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 
 # Css Units
 
+- [REM Unit](https://github.com/sakibcy/responsive-web-design#rem-unit)
+- [How to change the root font-size](https://github.com/sakibcy/responsive-web-design#how-to-change-the-root-font-size)
+- [How to Make Responsive Websites with REM Units](https://github.com/sakibcy/responsive-web-design#how-to-make-responsive-websites-with-rem-units)
+- [EM Unit](https://github.com/sakibcy/responsive-web-design#em-units)
+- [VW unit - viewport width](https://github.com/sakibcy/responsive-web-design#vw-unit---viewport-width)
+- [VH unit - viewport height](https://github.com/sakibcy/responsive-web-design#vh-unit---viewport-height)
+
+<br />
+
 ### REM, EM, VW, VH are relative units
 
 #### Font using the REM unit
 
 <img src="./images/rem-unit.gif" />
 
-#### pixels are absolute units.
+### pixels are absolute units.
 
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
