@@ -62,13 +62,13 @@
 
 <br /><br />
 
+## Which to use? Flexbox or Grid?
+
 CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both.
 
 <img src="./images/grid-vs-flexbox.png" />
 
 <br /><br />
-
-## Which to use? Flexbox or Grid?
 
 Ask yourself those questions:
 
@@ -219,26 +219,6 @@ In total we have 6 values:
 
 In addition to reversing the order in which flex items are visually displayed, you can target individual items and change where they appear in the visual order with the `order` property.
 
-The `order` property is designed to lay the items out in ordinal groups. What this means is that items are assigned an integer that represents their group. The items are then placed in the visual order according to that integer, lowest values first. If more than one item has the same integer value, then within that group the items are laid out as per source order.
-
-As an example, I have 5 flex items, and assign order values as follows:
-
-- Source item 1: order: 2
-- Source item 2: order: 3
-- Source item 3: order: 1
-- Source item 4: order: 3
-- Source item 5: order: 1
-
-These items would be displayed on the page in the following order:
-
-- Source item 3: order: 1
-- Source item 5: order: 1
-- Source item 1: order: 2
-- Source item 2: order: 3
-- Source item 4: order: 3
-
-Items have a number showing their source order which has been rearranged.
-
 <img src="./images/order-property.png" />
 
 <br /><br />
@@ -301,7 +281,7 @@ This is the shorthand for the flex-grow, flex-shrink and flex-basis properties c
 
 # Grid
 
-The Grid items [Contents] are distributed along the main axis and cross axis.
+### The Grid items [Contents] are distributed along the main axis and cross axis.
 
 - [Grid Architecture](https://github.com/sakibcy/responsive-web-design#grid-architecture)
 - [Grid Chart](https://github.com/sakibcy/responsive-web-design#grid-chart)
