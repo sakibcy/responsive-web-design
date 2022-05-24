@@ -66,7 +66,7 @@
 
 ## Which to use? Flexbox or Grid?
 
-CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both.
+CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both
 
 <img src="./images/grid-vs-flexbox.png" />
 
