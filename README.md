@@ -11,7 +11,7 @@ CSS Grid is a multi-dimension layout module, which means that it has columns and
 
 <img src="./images/grid-vs-flexbox.png" />
 
-<br />
+<br /><br />
 
 ## Which to use? Flexbox or Grid?
 
@@ -32,7 +32,9 @@ However, if you see columns and rows, then CSS grid is the solution for your cas
 
 <img src="./images/parent-childern.png" />
 
-## FlexBox
+<br /><br /><br />
+
+# FlexBox
 
 When you're building a house, you need a blueprint. In the same way, we need a blueprint when we're making websites. And Flexbox is the blueprint.
 
@@ -52,9 +54,9 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 <img src='./images/flexBoxChart.png' />
 <img src='./images/flexBoxProperty.png' />
 
-<br />
+<br /><br />
 
-## Use flex
+# Star using flex
 
 For start using flex first declare:
 
@@ -62,7 +64,7 @@ For start using flex first declare:
 display: flex;
 ```
 
-<br />
+<br /><br />
 
 ## flex-direction property
 
@@ -70,14 +72,14 @@ This property allows us to set the direction and orientation in which our flex-i
 <img src='./images/flexDirectionRow.png' />
 <img src='./images/flexDirectionColumn.png' />
 
-<br />
+<br /><br />
 
 ## flex-wrap
 
 This property helps you set the number of flex-items you want in a line or row.
 <img src="./images/flex-warp.png" />
 
-<br />
+<br /><br />
 
 ## flex-flow
 
@@ -85,7 +87,7 @@ This is the shorthand for the flex-direction and flex-wrap properties:
 
 <img src="./images/flex-flow.png" />
 
-<br />
+<br /><br />
 
 ## justify-content property
 
@@ -93,7 +95,7 @@ This property arranges flex-items along the MAIN AXIS inside the flex-container.
 <img src='./images/justifyContent.png' />
 <img src='./images/justifyContentSpace.png' />
 
-<br />
+<br /><br />
 
 ## text-align
 
@@ -101,7 +103,7 @@ Arrange text to left, center, right, start, end
 
 <img src="./images/text-align.png" />
 
-<br />
+<br /><br />
 
 ## align-content property
 
@@ -110,21 +112,21 @@ Please note that without the `flex-wrap` property, this property doesn't work. H
 <img src='./images/alignContent.png' />
 <img src='./images/alignContentSpace.png' />
 
-<br />
+<br /><br />
 
 ## place-content
 
 This is the shorthand for the align-content and justify-content properties:
 <img src='./images/placeContent.png' />
 
-<br />
+<br /><br />
 
 ## align-items property
 
 This property distributes Flex-items along the `Cross Axis`.
 <img src='./images/alignItem.png' />
 
-<br />
+<br /><br />
 
 ## align-self property
 
@@ -139,7 +141,7 @@ In total we have 6 values:
 - stretch
 - auto
 
-<br />
+<br /><br />
 
 ## The order property
 
@@ -167,7 +169,7 @@ Items have a number showing their source order which has been rearranged.
 
 <img src="./images/order-property.png" />
 
-<br />
+<br /><br />
 
 ## gap (grid-gap)
 
@@ -179,7 +181,7 @@ gap: 10px;
 
 <img src="./images/gap.png" width="532px" height="349px" />
 
-<br />
+<br /><br />
 
 ## flex - grow | shrink | wrap | basis properties
 
@@ -209,13 +211,13 @@ This property helps a flex item shrink based on the width of the flex-container.
 }
 ```
 
-<br />
+<br /><br />
 
 ## flex-basis
 
 This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.
 
-<br />
+<br /><br />
 
 ## flex shorthand
 
@@ -223,8 +225,7 @@ This is the shorthand for the flex-grow, flex-shrink and flex-basis properties c
 
 <img src="./images/flex-shorthand.png" />
 
-<br />
-<br />
+<br /><br /><br />
 
 # Grid
 
@@ -249,7 +250,7 @@ The Grid items [Contents] are distributed along the main axis and cross axis.
 - [Grid Children](https://github.com/sakibcy/responsive-web-design#grid-children)
   - [grid-area](https://github.com/sakibcy/responsive-web-design#grid-area)
 
-<br />
+<br /><br />
 
 ## Grid Architecture
 
@@ -257,7 +258,7 @@ The Grid items [Contents] are distributed along the main axis and cross axis.
 
 <img src="./images/grid-template-cloumns-rows.png" />
 
-<br />
+<br /><br />
 
 ## Grid Chart
 
@@ -272,7 +273,9 @@ Note: The `red colored text` denotes the `shorthand properties`:
 
 <img src="./images/grid-child.png" />
 
-## Start using Grid
+<br /><br />
+
+# Start using Grid
 
 to use grid on items first declare it:
 
@@ -280,8 +283,7 @@ to use grid on items first declare it:
 display: grid;
 ```
 
-<br />
-<br />
+<br /><br /><br />
 
 # Grid Parent
 
@@ -310,7 +312,7 @@ You use this property to define `the number and width of columns`.
   grid-template-columns: repeat(3, 100px);
   ```
 
-<br />
+<br /><br />
 
 ## grid-template-rows
 
@@ -322,7 +324,7 @@ define the `number and height of rows`. You can either individually set the heig
 
 <img src="./images/grid-template-rows-view.png" />
 
-<br />
+<br /><br />
 
 ## grid-template
 
@@ -343,7 +345,7 @@ grid-template-columns: 200px 200px;
 grid-template: 100px 100px / 200px 200px;
 ```
 
-<br />
+<br /><br />
 
 ## grid-template-areas
 
@@ -376,12 +378,14 @@ Like this 👇 inside the `parent .container` class:
 }
 ```
 
-<br />
+<br /><br />
 
 ## grid-area
 
 <img src="./images/grid-template-areas-parent.png" />
 <img src="./images/grid-template-areas-children.png" />
+
+<br />
 
 ### Implement the blueprint
 
@@ -399,7 +403,7 @@ Target all our `child .box-\*` classes and set the values like this
 }
 ```
 
-<br />
+<br /><br />
 
 ## column-gap
 
@@ -407,7 +411,7 @@ Target all our `child .box-\*` classes and set the values like this
 
 <img src="./images/column-gap.png" />
 
-<br />
+<br /><br />
 
 ## row-gap
 
@@ -415,7 +419,7 @@ Target all our `child .box-\*` classes and set the values like this
 
 <img src="./images/row-gap.png" />
 
-<br />
+<br /><br />
 
 ## justify-items
 
@@ -426,7 +430,7 @@ Alt Text
 
 <img src="./images/justify-items-center.png" />
 
-<br />
+<br /><br />
 
 ## justify-content
 
@@ -436,7 +440,7 @@ You use this property to `position your grid [Basically everything] inside the g
 
 <img src="./images/justify-content-space.png" />
 
-<br />
+<br /><br />
 
 ## align-items
 
@@ -444,7 +448,7 @@ use this property to `position grid-items (children) inside the grid container a
 
  <img src="./images/align-items.png" />
 
- <br />
+<br /><br />
 
 ## align-content
 
@@ -470,7 +474,7 @@ short form of
 - justify-content
 - align-content
 
-<br />
+<br /><br /><br />
 
 # Grid Children
 
@@ -479,6 +483,8 @@ short form of
 The illustration below 👇 shows the start and end points of rows and columns of a single cell.
 
 <img src="./images/grid-column-row.png" />
+
+<br /><br />
 
 ## grid-column-start - grid-column-end
 
@@ -529,6 +535,8 @@ The result looks like this: 👇
 
 <img src="./images/grid-column-result.png" />
 
+<br /><br />
+
 ## grid-column
 
 short form of
@@ -546,6 +554,8 @@ grid-column: 1 / 10;
 grid-column: span 10;
 ```
 
+<br /><br />
+
 ## grid-row-start - grid-row-end
 
 use these two properties to join multiple `ROWS` together.
@@ -562,9 +572,7 @@ use these two properties to join multiple `ROWS` together.
 
 <img src="./images/grid-row.png" />
 
-<br />
-<br />
-<br />
+<br /><br /><br />
 
 # Media Queries
 
@@ -634,7 +642,7 @@ If you have three conditions or more, you can use a comma, like this:
 }
 ```
 
-<br />
+<br /><br />
 
 ## min-width & max-width
 
@@ -646,7 +654,7 @@ there's no such thing as a standard screen break-point guide because there are s
 
 <img src="./images/bootstrap5-break-point.png" />
 
-<br />
+<br /><br />
 
 ## max-width
 
@@ -660,7 +668,7 @@ Notice how the light purple color gets Disabled when we hit above 500px.
 
 <br />
 
-## min-width function:
+## min-width:
 
 We are also creating a boundary here. But this will work if we go outside the boundary. Here's a sample: 👇
 
@@ -677,9 +685,7 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 - `mobile first approach` : min-width
 - `desktop first approach` : max-width
 
-  <br/>
-  <br>
-  <br>
+<br/><br><br>
 
 # Css Units
 
@@ -694,6 +700,8 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
 <img src="./images/pixel-unit.gif">
+
+<br /><br />
 
 ## REM Unit
 
@@ -714,6 +722,8 @@ html {
   font-size: 1rem;
 }
 ```
+
+<br /><br />
 
 ## How to Make Responsive Websites with REM Units
 
@@ -763,6 +773,8 @@ Here are the calculations:
 - For tablet screen -> 3 rem \* 18px = 54px
 - For mobile screen -> 3 rem \* 12px = 36px
 - Default setting -> 3rem \* 16px = 48px
+
+<br /><br /><br />
 
 ## EM Units
 
@@ -819,6 +831,8 @@ Here's the computed part from the developer console: 👇
 
 <img src="./images/em-padding.png" />
 
+<br /><br />
+
 ## VW unit - viewport width
 
 It works like the percentage unit. Specifying `50vw` is equivalent to occupying `50% of entire visible screen width`
@@ -843,6 +857,8 @@ If you look carefully, you can see that 50vw means 50%, which will cover half of
 resizing box which is 50vw in size. It is taking 50% of entire screen even if we resize the window.
 
 <img src="./images/resizevw.gif">
+
+<br /><br />
 
 ## VH unit - viewport height
 
@@ -869,6 +885,8 @@ As you can see, it will always cover that much space even if we resize the windo
 
 <img src="./images/resize-vh.gif">
 
+<br /><br /><br />
+
 # Css Articles
 
 - [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
@@ -876,6 +894,8 @@ As you can see, it will always cover that much space even if we resize the windo
 - [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
 - [ Media Queries for Standard Devices ](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 - [CSS Notes for Professionals book](https://goalkicker.com/CSSBook/)
+
+<br /><br /><br />
 
 # Resources from
 

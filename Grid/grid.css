@@ -54,3 +54,13 @@ body {
 .box-3 {
   /* grid-area: C; */
 }
+
+bar {
+  font-size: 5rem;
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 30px;
+  }
+}
