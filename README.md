@@ -2,6 +2,7 @@
 
 <br /><br />
 
+- [Normalize Css](https://github.com/sakibcy/responsive-web-design#normalize-css)
 - [Which to use? Flexbox or Grid?](https://github.com/sakibcy/responsive-web-design#which-to-use-flexbox-or-grid)
 - ## [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
 
@@ -61,6 +62,14 @@
   - [VH unit - viewport height](https://github.com/sakibcy/responsive-web-design#vh-unit---viewport-height)
 - ### [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
 - ### [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from)
+
+<br /><br />
+
+# Normalize Css
+Browsers apply styles to elements before you've written any CSS at all, and sometimes those styles vary. <br />
+Normalizing your CSS lets you rest assured, knowing that you have the same base layer of styles applied across all browsers. It should be noted that I am talking about normalization and not resetting.
+
+### [download the css file from here and put it on your project](https://github.com/necolas/normalize.css/)
 
 <br /><br />
 
