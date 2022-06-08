@@ -78,6 +78,12 @@ Normalizing your CSS lets you rest assured, knowing that you have the same base 
 # Box Model
 
 <img src="./images/box-model.png" width="450px" />
+<br />
+
+### We shoud use
+
+- `margin` for separating elements
+- `padding` for giving space inside element
 
 <br /><br />
 
@@ -794,7 +800,19 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 - [VW unit - viewport width](https://github.com/sakibcy/responsive-web-design#vw-unit---viewport-width)
 - [VH unit - viewport height](https://github.com/sakibcy/responsive-web-design#vh-unit---viewport-height)
 
-<br />
+<br /><br />
+
+### Absolute unit (fixed)
+
+- `px`
+
+### Relative unit (change on some condition)
+
+- `%` relative to the size of the container
+- `vw`, `vh` relative to the viewport
+- `em`, `rem` relative to the font size
+
+<br /><br />
 
 ### REM, EM, VW, VH are relative units
 
