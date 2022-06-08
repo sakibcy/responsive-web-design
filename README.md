@@ -276,6 +276,11 @@ gap: 10px;
 
 The properties will work when we resize the window.
 
+## flex-basis
+
+The initial size of a flex item\
+This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.
+
 ## flex-grow
 
 This property grows the size of a flex-item based on the width of the flex-container.
@@ -299,12 +304,6 @@ This property helps a flex item shrink based on the width of the flex-container.
   flex-grow: 1;
 }
 ```
-
-<br /><br />
-
-## flex-basis
-
-This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.
 
 <br /><br />
 
