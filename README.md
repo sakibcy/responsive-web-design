@@ -3,6 +3,7 @@
 <br /><br />
 
 - [Normalize Css](https://github.com/sakibcy/responsive-web-design#normalize-css)
+- [Box Model](https://github.com/sakibcy/responsive-web-design#box-model)
 - [Which to use? Flexbox or Grid?](https://github.com/sakibcy/responsive-web-design#which-to-use-flexbox-or-grid)
 - ## [Flexbox](https://github.com/sakibcy/responsive-web-design#flexbox)
 
@@ -66,10 +67,17 @@
 <br /><br />
 
 # Normalize Css
+
 Browsers apply styles to elements before you've written any CSS at all, and sometimes those styles vary. <br />
 Normalizing your CSS lets you rest assured, knowing that you have the same base layer of styles applied across all browsers. It should be noted that I am talking about normalization and not resetting.
 
 ### [download the css file from here and put it on your project](https://github.com/necolas/normalize.css/)
+
+<br /><br />
+
+# Box Model
+
+<img src="./images/box-model.png" />
 
 <br /><br />
 
