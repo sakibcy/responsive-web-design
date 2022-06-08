@@ -160,15 +160,15 @@ display: flex;
 ## flex-direction property
 
 This property allows us to set the direction and orientation in which our flex-items should be distributed inside the flex-container.
-<img src='./images/flexDirectionRow.png' />
-<img src='./images/flexDirectionColumn.png' />
+<img src='./images/flexDirectionRow.png' width='400px' />
+<img src='./images/flexDirectionColumn.png' width="400px"/>
 
 <br /><br />
 
 ## flex-wrap
 
 This property helps you set the number of flex-items you want in a line or row.
-<img src="./images/flex-warp.png" />
+<img src="./images/flex-warp.png" width="400px" />
 
 <br /><br />
 
@@ -176,15 +176,15 @@ This property helps you set the number of flex-items you want in a line or row.
 
 This is the shorthand for the flex-direction and flex-wrap properties:
 
-<img src="./images/flex-flow.png" />
+<img src="./images/flex-flow.png" width="400px"/>
 
 <br /><br />
 
 ## justify-content property
 
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
-<img src='./images/justifyContent.png' />
-<img src='./images/justifyContentSpace.png' />
+<img src='./images/justifyContent.png' width="400px" />
+<img src='./images/justifyContentSpace.png' width="400px" />
 
 <br /><br />
 
@@ -200,29 +200,29 @@ Arrange text to left, center, right, start, end
 
 This property arranges flex-items along the CROSS AXIS inside the flex-container. This is similar to justify-content.
 Please note that without the `flex-wrap` property, this property doesn't work. Here's a demo:
-<img src='./images/alignContent.png' />
-<img src='./images/alignContentSpace.png' />
+<img src='./images/alignContent.png' width="400px" />
+<img src='./images/alignContentSpace.png' width="400px" />
 
 <br /><br />
 
 ## place-content
 
 This is the shorthand for the align-content and justify-content properties:
-<img src='./images/placeContent.png' />
+<img src='./images/placeContent.png' width="400px" />
 
 <br /><br />
 
 ## align-items property
 
 This property distributes Flex-items along the `Cross Axis`.
-<img src='./images/alignItem.png' />
+<img src='./images/alignItem.png' width="400px" />
 
 <br /><br />
 
 ## align-self property
 
 This property works on the child classes. It positions the selected item along the Cross Axis.
-<img src='./images/alignSelf.png' />
+<img src='./images/alignSelf.png' width="400px" />
 In total we have 6 values:
 
 - flex-start
@@ -787,13 +787,13 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 
 #### Font using the REM unit
 
-<img src="./images/rem-unit.gif" />
+<img src="./images/rem-unit.gif" width="600px" />
 
 ### pixels are absolute units.
 
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
-<img src="./images/pixel-unit.gif">
+<img src="./images/pixel-unit.gif" width="600px" />
 
 <br /><br />
 
@@ -801,7 +801,7 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 
 The REM unit depends on the `root element [the HTML element]`. Here's an image to show you how it works:👇
 
-<img src='./images/htmlRem.png' />
+<img src='./images/htmlRem.png' width="400px" />
 
 ## How to change the root font-size
 
@@ -859,7 +859,7 @@ Write your styles in rem units instead of the pixels and change the root element
 
 And here's the result: 👇
 
-<img src="./images/rem-web.gif">
+<img src="./images/rem-web.gif" width="600px" />
 
 Here are the calculations:
 
@@ -919,11 +919,11 @@ padding => 3em * 3em * 16px = 144px
 
 Instead of being 48px of padding, we are getting 144px padding. As you can see, it is getting multiplied by the previous number.
 
-<img src="./images/em.png" />
+<img src="./images/em.png" width="400px" />
 
 Here's the computed part from the developer console: 👇
 
-<img src="./images/em-padding.png" />
+<img src="./images/em-padding.png" width="400px" />
 
 <br /><br />
 
@@ -946,11 +946,11 @@ It works like the percentage unit. Specifying `50vw` is equivalent to occupying 
 
 If you look carefully, you can see that 50vw means 50%, which will cover half of the entire screen width.
 
-<img src="./images/50vw.png" />
+<img src="./images/50vw.png" width="400px" />
 
 resizing box which is 50vw in size. It is taking 50% of entire screen even if we resize the window.
 
-<img src="./images/resizevw.gif">
+<img src="./images/resizevw.gif" width="600px" />
 
 <br /><br />
 
@@ -973,11 +973,11 @@ It works like the percentage unit as well. Specifying `50vh` is equivalent to `o
 
 And here's the result: 👇
 
-<img src="./images/50vh.png" />
+<img src="./images/50vh.png" width="400px" />
 
 As you can see, it will always cover that much space even if we resize the window.
 
-<img src="./images/resize-vh.gif">
+<img src="./images/resize-vh.gif" width="600px" >
 
 <br /><br /><br />
 
