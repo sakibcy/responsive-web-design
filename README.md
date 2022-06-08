@@ -77,7 +77,7 @@ Normalizing your CSS lets you rest assured, knowing that you have the same base 
 
 # Box Model
 
-<img src="./images/box-model.png" />
+<img src="./images/box-model.png" width="450px" />
 
 <br /><br />
 
@@ -85,7 +85,7 @@ Normalizing your CSS lets you rest assured, knowing that you have the same base 
 
 CSS Grid is a multi-dimension layout module, which means that it has columns and rows. Flexbox can lay out its child items either as columns or rows, but not both
 
-<img src="./images/grid-vs-flexbox.png" />
+<img src="./images/grid-vs-flexbox.png" width="700px" />
 
 <br /><br />
 
@@ -96,15 +96,15 @@ Ask yourself those questions:
 
 Most of the time, if the component you are viewing has `all of its child items displayed inline`, then most probably `flexbox is the best solution here`. Consider the following example:
 
-<img src="./images/decide-1.png" />
+<img src="./images/decide-1.png" width="700px" />
 
 However, if you see columns and rows, then CSS grid is the solution for your case.
 
-<img src="./images/decide-2.png">
+<img src="./images/decide-2.png" width="700px" />
 
 ### To learn more read this article 👉 [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
 
-<img src="./images/parent-childern.png" />
+<img src="./images/parent-childern.png" width="700px" />
 
 <br /><br /><br />
 
@@ -138,12 +138,12 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 
 ## Flexbox Architecture
 
-<img src='./images/flexBoxArchitecture.png' />
+<img src='./images/flexBoxArchitecture.png' width="700px" />
 
 ## Flexbox Chart
 
-<img src='./images/flexBoxChart.png' />
-<img src='./images/flexBoxProperty.png' />
+<img src='./images/flexBoxChart.png' width="700px" />
+<img src='./images/flexBoxProperty.png' width="500px" />
 
 <br /><br />
 
