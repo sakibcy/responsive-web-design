@@ -143,6 +143,7 @@ The Flexbox model allows us to layout the content of our website. Not only that,
 ## Flexbox Chart
 
 <img src='./images/flexBoxChart.png' width="700px" />
+
 <img src='./images/flexBoxProperty.png' width="500px" />
 
 <br /><br />
@@ -160,7 +161,9 @@ display: flex;
 ## flex-direction property
 
 This property allows us to set the direction and orientation in which our flex-items should be distributed inside the flex-container.
+
 <img src='./images/flexDirectionRow.png' width='400px' />
+
 <img src='./images/flexDirectionColumn.png' width="400px"/>
 
 <br /><br />
@@ -168,6 +171,7 @@ This property allows us to set the direction and orientation in which our flex-i
 ## flex-wrap
 
 This property helps you set the number of flex-items you want in a line or row.
+
 <img src="./images/flex-warp.png" width="400px" />
 
 <br /><br />
@@ -183,7 +187,9 @@ This is the shorthand for the flex-direction and flex-wrap properties:
 ## justify-content property
 
 This property arranges flex-items along the MAIN AXIS inside the flex-container.
+
 <img src='./images/justifyContent.png' width="400px" />
+
 <img src='./images/justifyContentSpace.png' width="400px" />
 
 <br /><br />
@@ -200,7 +206,9 @@ Arrange text to left, center, right, start, end
 
 This property arranges flex-items along the CROSS AXIS inside the flex-container. This is similar to justify-content.
 Please note that without the `flex-wrap` property, this property doesn't work. Here's a demo:
+
 <img src='./images/alignContent.png' width="400px" />
+
 <img src='./images/alignContentSpace.png' width="400px" />
 
 <br /><br />
@@ -208,6 +216,7 @@ Please note that without the `flex-wrap` property, this property doesn't work. H
 ## place-content
 
 This is the shorthand for the align-content and justify-content properties:
+
 <img src='./images/placeContent.png' width="400px" />
 
 <br /><br />
@@ -215,6 +224,7 @@ This is the shorthand for the align-content and justify-content properties:
 ## align-items property
 
 This property distributes Flex-items along the `Cross Axis`.
+
 <img src='./images/alignItem.png' width="400px" />
 
 <br /><br />
@@ -222,7 +232,9 @@ This property distributes Flex-items along the `Cross Axis`.
 ## align-self property
 
 This property works on the child classes. It positions the selected item along the Cross Axis.
+
 <img src='./images/alignSelf.png' width="400px" />
+
 In total we have 6 values:
 
 - flex-start
@@ -238,7 +250,7 @@ In total we have 6 values:
 
 In addition to reversing the order in which flex items are visually displayed, you can target individual items and change where they appear in the visual order with the `order` property.
 
-<img src="./images/order-property.png" />
+<img src="./images/order-property.png" width="500px" />
 
 <br /><br />
 
@@ -266,7 +278,7 @@ This property grows the size of a flex-item based on the width of the flex-conta
 
 This property helps a flex item shrink based on the width of the flex-container. It's the opposite of flex-grow.
 
-<img src="./images/flex-grow.png" />
+<img src="./images/flex-grow.png" width="500px" />
 
 ### Please note that flex-grow and flex-shrink work on child classes. So, we will target all our boxes like this:
 
@@ -294,7 +306,7 @@ This is similar to adding width to a flex-item, but only more flexible. flex-bas
 
 This is the shorthand for the flex-grow, flex-shrink and flex-basis properties combined.
 
-<img src="./images/flex-shorthand.png" />
+<img src="./images/flex-shorthand.png" width="500px" />
 
 <br /><br /><br />
 
@@ -331,9 +343,9 @@ This is the shorthand for the flex-grow, flex-shrink and flex-basis properties c
 
 ## Grid Architecture
 
-<img src="./images/grid-architecture.png" />
+<img src="./images/grid-architecture.png" width="500px" />
 
-<img src="./images/grid-template-cloumns-rows.png" />
+<img src="./images/grid-template-cloumns-rows.png" width="500px" />
 
 <br /><br />
 
@@ -346,9 +358,9 @@ Grid properties are divided into:
 
 Note: The `red colored text` denotes the `shorthand properties`:
 
-<img src="./images/grid-parent.png" />
+<img src="./images/grid-parent.png" width="500px" />
 
-<img src="./images/grid-child.png" />
+<img src="./images/grid-child.png" width="500px" />
 
 <br /><br />
 
@@ -371,10 +383,10 @@ You use this property to define `the number and width of columns`.
 - You can either individually set the width of each column,
 - or set a uniform width for all columns using the `repeat()` function.
 
-<img src="./images/grid-template-columns.png" />
-<img src="./images/grid-template-columns-repeat.png" />
+<img src="./images/grid-template-columns.png" width="500px" />
+<img src="./images/grid-template-columns-repeat.png" width="500px" />
 
-<img src="./images/grid-template-columns-view.png" />
+<img src="./images/grid-template-columns-view.png" width="500px" />
 
 ### Note:
 
@@ -395,11 +407,11 @@ You use this property to define `the number and width of columns`.
 
 define the `number and height of rows`. You can either individually set the height of each row, or set a uniform height for all rows using the repeat() function.
 
-<img src="./images/grid-template-rows.png" />
+<img src="./images/grid-template-rows.png" width="500px" />
 
-<img src="./images/grid-template-rows-repeat.png" />
+<img src="./images/grid-template-rows-repeat.png" width="500px" />
 
-<img src="./images/grid-template-rows-view.png" />
+<img src="./images/grid-template-rows-view.png" width="500px" />
 
 <br /><br />
 
@@ -428,11 +440,11 @@ grid-template: 100px 100px / 200px 200px;
 
 use this property to specify the amount of space a grid cell should carry in terms of columns and rows across the parent container.
 
-<img src="./images/grid-template-areas.png" />
+<img src="./images/grid-template-areas.png" width="500px" />
 
 Call it the blueprint(template) of our layout👇
 
-<img src="./images/grid-template-areas-blueprint.png" />
+<img src="./images/grid-template-areas-blueprint.png" width="500px" />
 
 - `grid-template-areas:`
   The parent property that will create the blueprint
@@ -459,8 +471,9 @@ Like this 👇 inside the `parent .container` class:
 
 ## grid-area
 
-<img src="./images/grid-template-areas-parent.png" />
-<img src="./images/grid-template-areas-children.png" />
+<img src="./images/grid-template-areas-parent.png" width="500px" />
+
+<img src="./images/grid-template-areas-children.png" width="500px" />
 
 <br />
 
@@ -486,7 +499,7 @@ Target all our `child .box-\*` classes and set the values like this
 
 `column-gap` works with `grid-template-columns`
 
-<img src="./images/column-gap.png" />
+<img src="./images/column-gap.png" width="500px" />
 
 <br /><br />
 
@@ -494,7 +507,7 @@ Target all our `child .box-\*` classes and set the values like this
 
 `row-gap` works with `grid-template-rows`
 
-<img src="./images/row-gap.png" />
+<img src="./images/row-gap.png" width="500px" />
 
 <br /><br />
 
@@ -503,9 +516,9 @@ Target all our `child .box-\*` classes and set the values like this
 You use this property to `position grid-items (children) inside grid containers along the X-Axis [Main Axis]`. The 4 values are 👇
 Alt Text
 
-<img src="./images/justify-items-start.png" />
+<img src="./images/justify-items-start.png" width="500px" />
 
-<img src="./images/justify-items-center.png" />
+<img src="./images/justify-items-center.png" width="500px" />
 
 <br /><br />
 
@@ -513,9 +526,9 @@ Alt Text
 
 You use this property to `position your grid [Basically everything] inside the grid container along the X-Axis [Main Axis]`. The 7 values are 👇
 
-<img src="./images/justify-content-start.png" />
+<img src="./images/justify-content-start.png" width="500px"/>
 
-<img src="./images/justify-content-space.png" />
+<img src="./images/justify-content-space.png" width="500px" />
 
 <br /><br />
 
@@ -523,7 +536,7 @@ You use this property to `position your grid [Basically everything] inside the g
 
 use this property to `position grid-items (children) inside the grid container along the Y-Axis [Cross Axis]`.
 
- <img src="./images/align-items.png" />
+ <img src="./images/align-items.png" width="500px" />
 
 <br /><br />
 
@@ -531,9 +544,9 @@ use this property to `position grid-items (children) inside the grid container a
 
 use this property to `position our grid [Basically everything] inside the grid container along the Y-Axis [Cross Axis]`.
 
-<img src="./images/align-content-start.png" />
+<img src="./images/align-content-start.png" width="500px" />
 
-<img src="./images/align-content-space.png" />
+<img src="./images/align-content-space.png" width="500px" />
 
 <br />
 
@@ -555,11 +568,11 @@ short form of
 
 # Grid Children
 
-<img src="./images/grid-scale.png" />
+<img src="./images/grid-scale.png" width="500px" />
 
 The illustration below 👇 shows the start and end points of rows and columns of a single cell.
 
-<img src="./images/grid-column-row.png" />
+<img src="./images/grid-column-row.png" width="500px" />
 
 <br /><br />
 
@@ -610,7 +623,7 @@ grid-column: span 10;
 
 The result looks like this: 👇
 
-<img src="./images/grid-column-result.png" />
+<img src="./images/grid-column-result.png" width="400px" />
 
 <br /><br />
 
@@ -647,7 +660,7 @@ use these two properties to join multiple `ROWS` together.
 }
 ```
 
-<img src="./images/grid-row.png" />
+<img src="./images/grid-row.png" width="400px" />
 
 <br /><br /><br />
 
@@ -673,7 +686,7 @@ Here's the syntax of a Media Query:
 }
 ```
 
-<img src="./images/media-query-syntex.png" />
+<img src="./images/media-query-syntex.png" width="400px" />
 
 <br />
 
@@ -681,7 +694,7 @@ Here's the syntax of a Media Query:
 
 ### `@media type`
 
-<img src="./images/media-type.png" />
+<img src="./images/media-type.png" width="400px" />
 
 the media type, min-width, and max-width functions are basically conditions we are giving to the browser. We don't write the "and" operator if we have one condition. Like this ->
 
@@ -737,7 +750,7 @@ If you have three conditions or more, you can use a comma, like this:
 
 there's no such thing as a standard screen break-point guide because there are so many screen sizes on the market
 
-<img src="./images/bootstrap5-break-point.png" />
+<img src="./images/bootstrap5-break-point.png" width="400px" />
 
 <br /><br />
 
@@ -748,8 +761,8 @@ Using this function, we are creating a boundary. This will work as long as we ar
 Our Boundary is 500px:\
 Notice how the light purple color gets Disabled when we hit above 500px.
 
-<img src="./images/max-width.gif" />
-<img src="./images/max-width-img.png" />
+<img src="./images/max-width.gif" width="500px" />
+<img src="./images/max-width-img.png" width="400px" />
 
 <br />
 
@@ -760,8 +773,8 @@ We are also creating a boundary here. But this will work if we go outside the bo
 Our boundary is 500px:\
 Notice how the light purple color gets enabled after we hit above 500px width.
 
-<img src="./images/min-width.gif" />
-<img src="./images/min-width-img.png" />
+<img src="./images/min-width.gif" width="400px" />
+<img src="./images/min-width-img.png" width="400px" />
 
 <br />
 
