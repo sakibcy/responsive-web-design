@@ -800,13 +800,13 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 
 #### Font using the REM unit
 
-<img src="./images/rem-unit.gif" width="600px" />
+<img src="./images/rem-unit.gif" width="500px" />
 
 ### pixels are absolute units.
 
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
-<img src="./images/pixel-unit.gif" width="600px" />
+<img src="./images/pixel-unit.gif" width="500px" />
 
 <br /><br />
 
@@ -872,7 +872,7 @@ Write your styles in rem units instead of the pixels and change the root element
 
 And here's the result: 👇
 
-<img src="./images/rem-web.gif" width="600px" />
+<img src="./images/rem-web.gif" width="500px" />
 
 Here are the calculations:
 
@@ -963,7 +963,7 @@ If you look carefully, you can see that 50vw means 50%, which will cover half of
 
 resizing box which is 50vw in size. It is taking 50% of entire screen even if we resize the window.
 
-<img src="./images/resizevw.gif" width="600px" />
+<img src="./images/resizevw.gif" width="500px" />
 
 <br /><br />
 
@@ -990,7 +990,7 @@ And here's the result: 👇
 
 As you can see, it will always cover that much space even if we resize the window.
 
-<img src="./images/resize-vh.gif" width="600px" >
+<img src="./images/resize-vh.gif" width="500px" >
 
 <br /><br /><br />
 
