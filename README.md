@@ -54,6 +54,14 @@
     - [grid-column](https://github.com/sakibcy/responsive-web-design#grid-column)
     - [grid-row-start, grid-row-end](https://github.com/sakibcy/responsive-web-design#grid-row-start---grid-row-end)
 
+- ## [Media Queries](https://github.com/sakibcy/responsive-web-design#media-queries)
+
+  - [Css Media Query Syntex](https://github.com/sakibcy/responsive-web-design#css-media-query-syntax)
+  - [min-width & max-width](https://github.com/sakibcy/responsive-web-design#min-width--max-width)
+  - [max-width](https://github.com/sakibcy/responsive-web-design#max-width)
+  - [min-width](https://github.com/sakibcy/responsive-web-design#min-width)
+  - [desktop first approach vs mobile first approach](https://github.com/sakibcy/responsive-web-design#desktop-first-approach-vs-mobile-first-approach)
+
 - ## [Css Units](https://github.com/sakibcy/responsive-web-design#css-units)
   - [REM Unit](https://github.com/sakibcy/responsive-web-design#rem-unit)
   - [How to change the root font-size](https://github.com/sakibcy/responsive-web-design#how-to-change-the-root-font-size)
@@ -817,13 +825,15 @@ Notice how the light purple color gets enabled after we hit above 500px width.
 
 #### Font using the REM unit
 
-<img src="./images/rem-unit.gif" width="500px" />
+👇 Notice font size is not changing when we resize the window.
+
+<img src="./images/rem-unit.gif" width="300px" height="300px" />
 
 ### pixels are absolute units.
 
 👇 Notice that the font size of 50px doesn't change when we resize the window.
 
-<img src="./images/pixel-unit.gif" width="500px" />
+<img src="./images/pixel-unit.gif" width="300px" height="300px" />
 
 <br /><br />
 
