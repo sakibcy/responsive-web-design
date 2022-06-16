@@ -75,7 +75,7 @@
 
 - ### [Css Articles](https://github.com/sakibcy/responsive-web-design#css-articles)
 
-- ### [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from)
+- ### [Resources From](https://github.com/sakibcy/responsive-web-design#resources-from-1)
 
 <br /><br />
 
