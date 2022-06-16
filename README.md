@@ -1077,3 +1077,4 @@ As you can see, it will always cover that much space even if we resize the windo
 
 - [Joy Shaheb](https://www.freecodecamp.org/news/author/joy/)
 - [Ahmad Shadeed](https://ishadeed.com/article/grid-layout-flexbox-components/)
+- [W3Schools.com](https://www.w3schools.com)
